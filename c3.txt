@@ -1,0 +1,17 @@
+PABX Port connected
+PABX answer :LINETEST  
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :
+PABX answer :
+PABX answer :
+PABX answer :
+PABX answer :
+PABX answer :
+PABX answer :
+PABX answer :
+PABX answer :
+PABX answer :
+PABX answer :
+PABX answer :AREYUTHERE
+PMS Sending ACK

@@ -1,0 +1,21 @@
+PABX Port connected
+PABX answer :LINETEST  
+PMS Sending ACK
+PABX answer :
+PMS Sending ACK
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :
+PMS Sending ACK
+PABX answer :
+PMS Sending ACK
+PABX answer :
+PMS Sending ACK
+PABX answer :
+PMS Sending ACK

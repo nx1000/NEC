@@ -1,0 +1,8 @@
+PABX Port connected
+PABX answer :LINETEST  
+PABX answer :
+PABX answer :MW 0 1       
+PABX answer :AREYUTHERE
+PABX answer :AREYUTHERE
+PABX answer :AREYUTHERE
+PABX Port disconnected

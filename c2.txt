@@ -1,0 +1,90 @@
+PABX Port connected
+PABX answer :LINETEST  
+PMS Sending ACK
+PABX answer :STS4 8208    
+PMS Sent 15 RST2 8208    
+PABX answer :
+PABX answer :
+PABX answer :
+PABX answer :
+PMS Sent 15 RST2 8208    
+PABX answer :
+PABX answer :
+PMS Sent 15 RST2 8208    
+PABX answer :
+PABX answer :
+PABX answer :
+PABX answer :
+PMS Sent 15 RST2 8208    
+PABX answer :
+PABX answer :
+PABX answer :
+PABX answer :
+PMS Sent 15 RST2 8208    
+PABX answer :
+PABX answer :
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    
+PABX answer :AREYUTHERE
+PMS Sending ACK
+PABX answer :STS4 8208    

@@ -1,0 +1,83 @@
+
+PMS Port connected
+PMS answer :LINETEST  
+PMS answer :
+PMS answer :MW 0 1       
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :AREYUTHERE
+PMS answer :
+PMS answer :AREYUTHERE
+PMS answer :AREYUTHERE
+29-10-2016 09:30:19 <-- 28 POT   09:27 001        00:00:21 ROOM 208   082136078869           0           
+
+PMS Port connected
+PMS answer :LINETEST  
+PMS answer :
+PMS answer :MW 0 1       
+PMS answer :AREYUTHERE
+PMS answer :AREYUTHERE
+PMS answer :AREYUTHERE
+PMS Port connected
+PMS answer :LINETEST  
+PMS answer :
+PMS answer :MW 0 1       
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :AREYUTHERE
+PMS answer :
+PMS answer :AREYUTHERE
+PMS answer :
+PMS answer :AREYUTHERE
+PMS answer :
+PMS Port connected
+PMS answer :LINETEST  
+PMS answer :
+PMS answer :MW 0 1       
+PMS answer :AREYUTHERE
+PMS answer :
+PMS answer :
+PMS answer :AREYUTHERE
+PMS answer :
+PMS answer :
+PMS answer :AREYUTHERE
+PMS answer :
+PMS Port connected
+PMS answer :LINETEST  
+PMS answer :
+PMS answer :MW 0 1       
+PMS answer :
+PMS answer :
+PMS answer :
+PMS answer :
