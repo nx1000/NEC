@@ -44,6 +44,11 @@ type
     Button12: TButton;
     Timer2: TTimer;
     Label2: TLabel;
+    Memo2: TMemo;
+    Timer3: TTimer;
+    procedure Timer3Timer(Sender: TObject);
+    procedure Memo2Change(Sender: TObject);
+    procedure Memo1Change(Sender: TObject);
     procedure Timer2Timer(Sender: TObject);
     procedure Button12Click(Sender: TObject);
     procedure Button11Click(Sender: TObject);
@@ -80,6 +85,7 @@ type
     { Public declarations }
     runningfo : Boolean;
     runningbilling : Boolean;
+    logfile1,logfile2 : String;
     procedure ParseRAW;
     procedure getAreaCost(ph: String;dur:String;var area:String;var Cost:Double;ctg:Integer);
     procedure InsertRAW(s: String);
@@ -136,6 +142,11 @@ begin
   ParseRoom;
 end;
 
+procedure TForm1.Timer3Timer(Sender: TObject);
+begin
+  Memo2.Lines.Add(DateTimeToStr(Now));
+end;
+
 procedure TForm1.ParseRAW;
 var cmd : String;
     datestr,durstr,timestr : String;
@@ -167,13 +178,14 @@ begin
   que.SQL.Text := 'select id, substr(smdr,1,2) as smdrid, substr(smdr,36,10) as roomno,current_date as tgl,substr(smdr,10,5) as jam,substr(smdr,27,8) as duration,substr(smdr,47,12) as ph, substr(smdr,1,2) as no' +
                   ' from pbxraw' +
                   ' where processed=0 and trim(substr(smdr,1,2)) REGEXP ''[0-9]+''' +
-                  ' and smdr not like ''%NO ANSWER%''';
+                  ' and smdr not like ''%NO ANSWER%''' +
+                  ' and substr(smdr,4,3)=''POT''';
   que.Open;
 
   que.First;
 
   if que.RecordCount>0 then begin
-    Memo1.Lines.Clear;
+//    Memo1.Lines.Clear;
     Timer1.Enabled := False;
     cnt := que.RecordCount;
   end;
@@ -276,7 +288,7 @@ begin
 
 
       misc.Close;
-      Memo1.Lines.Add('Charging '+ room + ' ' +dial);
+      Memo2.Lines.Add('Charging '+ room + ' ' +dial);
       cnt := cnt-1;
       Label2.Caption := IntToStr(cnt)+ ' records remaining';
 
@@ -499,7 +511,7 @@ procedure TForm1.ClientSocket1Read(Sender: TObject; Socket: TCustomWinSocket);
 var terima : String;
 begin
   terima := Socket.ReceiveText;
-  Memo1.Lines.Add(FormatDateTime('dd-mm-yyyy hh:nn:ss',Now)+' <-- '+terima);
+  Memo2.Lines.Add(FormatDateTime('dd-mm-yyyy hh:nn:ss',Now)+' <-- '+terima);
   InsertRAW(terima);
 end;
 
@@ -518,6 +530,7 @@ end;
 procedure TForm1.ClientSocket2Read(Sender: TObject; Socket: TCustomWinSocket);
 var oritext,bodytext : String;
     str : String;
+    sts : String;
 begin
 
   oritext := Socket.ReceiveText;
@@ -551,6 +564,13 @@ begin
 //    ClientSocket2.Close;
   end;
 
+  if copy(oritext,1,4) = STX+'STS' then begin
+    sts := copy(oritext,5,1);
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add('Status '+ copy(oritext,5,1) + ' '+sts);
+  end;
+
+
 
 
 
@@ -577,6 +597,9 @@ end;
 procedure TForm1.FormShow(Sender: TObject);
 var x : TStrings;
 begin
+  logfile1 := 'memo1-'+FormatDateTime('yyyymmddhhnnss',Now)+'.txt';
+  logfile2 := 'memo2-'+FormatDateTime('yyyymmddhhnnss',Now)+'.txt';
+
   if not FileExists('hostn.txt') then begin
     ShowMessage('Configuration file not found');
     Application.Terminate;
@@ -935,6 +958,21 @@ begin
 end;
 
 
+
+procedure TForm1.Memo1Change(Sender: TObject);
+begin
+  if Memo1.Lines.Count=1000 then
+    logfile1 := 'memo1-'+FormatDateTime('yyyymmddhhnnss',Now)+'.txt';
+  Memo1.Lines.SaveToFile(logfile1);
+end;
+
+procedure TForm1.Memo2Change(Sender: TObject);
+begin
+  if Memo2.Lines.Count=1000 then
+    logfile2 := 'memo2-'+FormatDateTime('yyyymmddhhnnss',Now)+'.txt';
+
+  Memo2.Lines.SaveToFile(logfile2);
+end;
 
 procedure TForm1.MULAI;
 var str : String;

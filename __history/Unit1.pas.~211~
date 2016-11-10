@@ -44,6 +44,11 @@ type
     Button12: TButton;
     Timer2: TTimer;
     Label2: TLabel;
+    Memo2: TMemo;
+    Timer3: TTimer;
+    procedure Timer3Timer(Sender: TObject);
+    procedure Memo2Change(Sender: TObject);
+    procedure Memo1Change(Sender: TObject);
     procedure Timer2Timer(Sender: TObject);
     procedure Button12Click(Sender: TObject);
     procedure Button11Click(Sender: TObject);
@@ -79,6 +84,7 @@ type
   public
     { Public declarations }
     runningfo : Boolean;
+    runningbilling : Boolean;
     procedure ParseRAW;
     procedure getAreaCost(ph: String;dur:String;var area:String;var Cost:Double;ctg:Integer);
     procedure InsertRAW(s: String);
@@ -135,6 +141,11 @@ begin
   ParseRoom;
 end;
 
+procedure TForm1.Timer3Timer(Sender: TObject);
+begin
+  Memo2.Lines.Add(DateTimeToStr(Now));
+end;
+
 procedure TForm1.ParseRAW;
 var cmd : String;
     datestr,durstr,timestr : String;
@@ -172,7 +183,7 @@ begin
   que.First;
 
   if que.RecordCount>0 then begin
-    Memo1.Lines.Clear;
+//    Memo1.Lines.Clear;
     Timer1.Enabled := False;
     cnt := que.RecordCount;
   end;
@@ -181,6 +192,9 @@ begin
 
 
   while not que.Eof do begin
+
+    if runningbilling=False then Exit;
+
 
 //    Memo1.Lines.Add(IntToStr(que['id'])+' '+que['smdrid']);
 
@@ -272,7 +286,7 @@ begin
 
 
       misc.Close;
-      Memo1.Lines.Add('Charging '+ room + ' ' +dial);
+      Memo2.Lines.Add('Charging '+ room + ' ' +dial);
       cnt := cnt-1;
       Label2.Caption := IntToStr(cnt)+ ' records remaining';
 
@@ -352,12 +366,18 @@ end;
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
+  runningbilling := True;
   Timer1.Enabled := True;
+  Button1.Enabled := False;
+  Button2.Enabled := True;
 end;
 
 procedure TForm1.Button2Click(Sender: TObject);
 begin
+  runningbilling := False;
   Timer1.Enabled := False;
+  Button1.Enabled := True;
+  Button2.Enabled := False;
 end;
 
 procedure TForm1.Button3Click(Sender: TObject);
@@ -489,7 +509,7 @@ procedure TForm1.ClientSocket1Read(Sender: TObject; Socket: TCustomWinSocket);
 var terima : String;
 begin
   terima := Socket.ReceiveText;
-  Memo1.Lines.Add(FormatDateTime('dd-mm-yyyy hh:nn:ss',Now)+' <-- '+terima);
+  Memo2.Lines.Add(FormatDateTime('dd-mm-yyyy hh:nn:ss',Now)+' <-- '+terima);
   InsertRAW(terima);
 end;
 
@@ -508,6 +528,7 @@ end;
 procedure TForm1.ClientSocket2Read(Sender: TObject; Socket: TCustomWinSocket);
 var oritext,bodytext : String;
     str : String;
+    sts : String;
 begin
 
   oritext := Socket.ReceiveText;
@@ -540,6 +561,13 @@ begin
 //    Sinkro;
 //    ClientSocket2.Close;
   end;
+
+  if copy(oritext,1,4) = STX+'STS' then begin
+    sts := copy(oritext,5,1);
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add('Status '+ copy(oritext,5,1) + ' '+sts);
+  end;
+
 
 
 
@@ -732,6 +760,7 @@ procedure TForm1.ParseRoom;
 var depdt : TDate;
 begin
   //
+  runningfo:=True;
   if fo.Active then fo.Close;
   fo.SQL.Text := 'select * from room where flag=1';
   fo.Open;
@@ -924,6 +953,16 @@ begin
 end;
 
 
+
+procedure TForm1.Memo1Change(Sender: TObject);
+begin
+  Memo1.Lines.SaveToFile('memo1'+FormatDateTime('yyyymmddhhnnss')+'.txt');
+end;
+
+procedure TForm1.Memo2Change(Sender: TObject);
+begin
+  Memo2.Lines.SaveToFile('memo2'+FormatDateTime('yyyymmddhhnnss')+'.txt');
+end;
 
 procedure TForm1.MULAI;
 var str : String;

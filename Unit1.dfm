@@ -4,7 +4,7 @@ object Form1: TForm1
   BorderStyle = bsDialog
   Caption = 'NEC --> Emerald System'
   ClientHeight = 556
-  ClientWidth = 421
+  ClientWidth = 788
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -30,7 +30,7 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 307
+    Left = 686
     Top = 333
     Width = 94
     Height = 13
@@ -57,9 +57,10 @@ object Form1: TForm1
     Height = 225
     ScrollBars = ssBoth
     TabOrder = 1
+    OnChange = Memo1Change
   end
   object Button1: TButton
-    Left = 205
+    Left = 584
     Top = 352
     Width = 95
     Height = 25
@@ -74,7 +75,7 @@ object Form1: TForm1
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 306
+    Left = 685
     Top = 352
     Width = 95
     Height = 25
@@ -267,8 +268,8 @@ object Form1: TForm1
     OnClick = Button11Click
   end
   object dep: TDateTimePicker
-    Left = 227
-    Top = 383
+    Left = 443
+    Top = 450
     Width = 186
     Height = 21
     Date = 42679.535522025460000000
@@ -285,12 +286,21 @@ object Form1: TForm1
     TabOrder = 21
     OnClick = Button12Click
   end
+  object Memo2: TMemo
+    Left = 407
+    Top = 104
+    Width = 373
+    Height = 223
+    ScrollBars = ssBoth
+    TabOrder = 22
+    OnChange = Memo2Change
+  end
   object Timer1: TTimer
     Enabled = False
     Interval = 10000
     OnTimer = Timer1Timer
-    Left = 64
-    Top = 288
+    Left = 536
+    Top = 352
   end
   object ZConnection1: TZConnection
     Protocol = 'mysql-5'
@@ -360,5 +370,11 @@ object Form1: TForm1
     OnTimer = Timer2Timer
     Left = 120
     Top = 488
+  end
+  object Timer3: TTimer
+    Interval = 2000
+    OnTimer = Timer3Timer
+    Left = 568
+    Top = 224
   end
 end

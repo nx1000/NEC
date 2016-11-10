@@ -29,6 +29,14 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
   end
+  object Label2: TLabel
+    Left = 307
+    Top = 333
+    Width = 94
+    Height = 13
+    Alignment = taRightJustify
+    Caption = '0 records remaining'
+  end
   object mysqlserver: TEdit
     Left = 24
     Top = 40
@@ -71,6 +79,7 @@ object Form1: TForm1
     Width = 95
     Height = 25
     Caption = 'Stop Billing'
+    Enabled = False
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -265,6 +274,7 @@ object Form1: TForm1
     Date = 42679.535522025460000000
     Time = 42679.535522025460000000
     TabOrder = 20
+    Visible = False
   end
   object Button12: TButton
     Left = 24
@@ -345,6 +355,7 @@ object Form1: TForm1
     Top = 272
   end
   object Timer2: TTimer
+    Enabled = False
     Interval = 10000
     OnTimer = Timer2Timer
     Left = 120

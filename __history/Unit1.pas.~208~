@@ -44,6 +44,9 @@ type
     Button12: TButton;
     Timer2: TTimer;
     Label2: TLabel;
+    Memo2: TMemo;
+    procedure Memo2Change(Sender: TObject);
+    procedure Memo1Change(Sender: TObject);
     procedure Timer2Timer(Sender: TObject);
     procedure Button12Click(Sender: TObject);
     procedure Button11Click(Sender: TObject);
@@ -173,7 +176,7 @@ begin
   que.First;
 
   if que.RecordCount>0 then begin
-    Memo1.Lines.Clear;
+//    Memo1.Lines.Clear;
     Timer1.Enabled := False;
     cnt := que.RecordCount;
   end;
@@ -184,7 +187,7 @@ begin
   while not que.Eof do begin
 
     if runningbilling=False then Exit;
-    
+
 
 //    Memo1.Lines.Add(IntToStr(que['id'])+' '+que['smdrid']);
 
@@ -276,7 +279,7 @@ begin
 
 
       misc.Close;
-      Memo1.Lines.Add('Charging '+ room + ' ' +dial);
+      Memo2.Lines.Add('Charging '+ room + ' ' +dial);
       cnt := cnt-1;
       Label2.Caption := IntToStr(cnt)+ ' records remaining';
 
@@ -499,7 +502,7 @@ procedure TForm1.ClientSocket1Read(Sender: TObject; Socket: TCustomWinSocket);
 var terima : String;
 begin
   terima := Socket.ReceiveText;
-  Memo1.Lines.Add(FormatDateTime('dd-mm-yyyy hh:nn:ss',Now)+' <-- '+terima);
+  Memo2.Lines.Add(FormatDateTime('dd-mm-yyyy hh:nn:ss',Now)+' <-- '+terima);
   InsertRAW(terima);
 end;
 
@@ -518,6 +521,7 @@ end;
 procedure TForm1.ClientSocket2Read(Sender: TObject; Socket: TCustomWinSocket);
 var oritext,bodytext : String;
     str : String;
+    sts : String;
 begin
 
   oritext := Socket.ReceiveText;
@@ -550,6 +554,13 @@ begin
 //    Sinkro;
 //    ClientSocket2.Close;
   end;
+
+  if copy(oritext,1,4) = STX+'STS' then begin
+    sts := copy(oritext,5,1);
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add('Status '+ copy(oritext,5,1) + ' '+sts);
+  end;
+
 
 
 
@@ -742,6 +753,7 @@ procedure TForm1.ParseRoom;
 var depdt : TDate;
 begin
   //
+  runningfo:=True;
   if fo.Active then fo.Close;
   fo.SQL.Text := 'select * from room where flag=1';
   fo.Open;
@@ -934,6 +946,16 @@ begin
 end;
 
 
+
+procedure TForm1.Memo1Change(Sender: TObject);
+begin
+  Memo1.Lines.SaveToFile('memo1.txt');
+end;
+
+procedure TForm1.Memo2Change(Sender: TObject);
+begin
+  Memo2.Lines.SaveToFile('memo2.txt');
+end;
 
 procedure TForm1.MULAI;
 var str : String;
