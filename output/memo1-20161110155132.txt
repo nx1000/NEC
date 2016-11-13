@@ -1,0 +1,999 @@
+SMDR Port Connecting....
+SMDR Port Connected
+PABX Port connected
+sending at 3:51:41 PM
+3:51:41 PM PABX answer :LINETEST  
+3:51:41 PMPMS Receiving LINETEST and Sending ACK
+3:51:41 PM PABX answer :RQINZ     
+3:51:51 PM PABX answer :AREYUTHERE
+3:51:51 PMPMS Receiving AREYUTHERE and Sending ACK
+3:51:51 PM PABX answer :RQINZ     
+3:52:01 PM PABX answer :AREYUTHERE
+3:52:01 PMPMS Receiving AREYUTHERE and Sending ACK
+3:52:01 PM PABX answer :RQINZ     
+3:52:12 PM PABX answer :AREYUTHERE
+3:52:12 PMPMS Receiving AREYUTHERE and Sending ACK
+3:52:12 PM PABX answer :RQINZ     
+3:52:22 PM PABX answer :AREYUTHERE
+3:52:22 PMPMS Receiving AREYUTHERE and Sending ACK
+3:52:22 PM PABX answer :RQINZ     
+3:52:32 PM PABX answer :AREYUTHERE
+3:52:32 PMPMS Receiving AREYUTHERE and Sending ACK
+3:52:32 PM PABX answer :RQINZ     
+3:52:42 PM PABX answer :AREYUTHERE
+3:52:42 PMPMS Receiving AREYUTHERE and Sending ACK
+3:52:42 PM PABX answer :RQINZ     
+3:52:52 PM PABX answer :AREYUTHERE
+3:52:52 PMPMS Receiving AREYUTHERE and Sending ACK
+3:52:52 PM PABX answer :RQINZ     
+3:53:02 PM PABX answer :AREYUTHERE
+3:53:02 PMPMS Receiving AREYUTHERE and Sending ACK
+3:53:02 PM PABX answer :RQINZ     
+3:53:12 PM PABX answer :AREYUTHERE
+3:53:12 PMPMS Receiving AREYUTHERE and Sending ACK
+3:53:12 PM PABX answer :RQINZ     
+3:53:22 PM PABX answer :AREYUTHERE
+3:53:22 PMPMS Receiving AREYUTHERE and Sending ACK
+3:53:22 PM PABX answer :RQINZ     
+3:53:32 PM PABX answer :AREYUTHERE
+3:53:32 PMPMS Receiving AREYUTHERE and Sending ACK
+3:53:32 PM PABX answer :RQINZ     
+3:53:42 PM PABX answer :AREYUTHERE
+3:53:42 PMPMS Receiving AREYUTHERE and Sending ACK
+3:53:42 PM PABX answer :RQINZ     
+3:53:53 PM PABX answer :AREYUTHERE
+3:53:53 PMPMS Receiving AREYUTHERE and Sending ACK
+3:53:53 PM PABX answer :RQINZ     
+3:54:03 PM PABX answer :AREYUTHERE
+3:54:03 PMPMS Receiving AREYUTHERE and Sending ACK
+3:54:03 PM PABX answer :RQINZ     
+3:54:13 PM PABX answer :AREYUTHERE
+3:54:13 PMPMS Receiving AREYUTHERE and Sending ACK
+3:54:13 PM PABX answer :RQINZ     
+3:54:23 PM PABX answer :AREYUTHERE
+3:54:23 PMPMS Receiving AREYUTHERE and Sending ACK
+3:54:23 PM PABX answer :RQINZ     
+3:54:33 PM PABX answer :AREYUTHERE
+3:54:33 PMPMS Receiving AREYUTHERE and Sending ACK
+3:54:33 PM PABX answer :RQINZ     
+3:54:43 PM PABX answer :AREYUTHERE
+3:54:43 PMPMS Receiving AREYUTHERE and Sending ACK
+3:54:43 PM PABX answer :RQINZ     
+3:54:53 PM PABX answer :AREYUTHERE
+3:54:53 PMPMS Receiving AREYUTHERE and Sending ACK
+3:54:53 PM PABX answer :RQINZ     
+3:55:03 PM PABX answer :AREYUTHERE
+3:55:03 PMPMS Receiving AREYUTHERE and Sending ACK
+3:55:03 PM PABX answer :RQINZ     
+GRS       
+CHK0 8343    Form1               
+PMS Sent 15 RST3 8343    
+END       
+3:55:12 PM PABX answer :
+GRS       
+CHK1 8343    ASRI ADI PUTRA      
+PMS Sent 15 RST3 8343    
+END       
+3:55:13 PM PABX answer :
+3:55:23 PM PABX answer :AREYUTHERE
+3:55:23 PMPMS Receiving AREYUTHERE and Sending ACK
+3:55:23 PM PABX answer :RQINZ     
+3:55:33 PM PABX answer :AREYUTHERE
+3:55:33 PMPMS Receiving AREYUTHERE and Sending ACK
+3:55:33 PM PABX answer :RQINZ     
+3:55:43 PM PABX answer :AREYUTHERE
+3:55:43 PMPMS Receiving AREYUTHERE and Sending ACK
+3:55:43 PM PABX answer :RQINZ     
+3:55:53 PM PABX answer :AREYUTHERE
+3:55:53 PMPMS Receiving AREYUTHERE and Sending ACK
+3:55:53 PM PABX answer :RQINZ     
+3:56:03 PM PABX answer :AREYUTHERE
+3:56:03 PMPMS Receiving AREYUTHERE and Sending ACK
+3:56:03 PM PABX answer :RQINZ     
+3:56:14 PM PABX answer :AREYUTHERE
+3:56:14 PMPMS Receiving AREYUTHERE and Sending ACK
+3:56:14 PM PABX answer :RQINZ     
+3:56:24 PM PABX answer :AREYUTHERE
+3:56:24 PMPMS Receiving AREYUTHERE and Sending ACK
+3:56:24 PM PABX answer :RQINZ     
+3:56:34 PM PABX answer :AREYUTHERE
+3:56:34 PMPMS Receiving AREYUTHERE and Sending ACK
+3:56:34 PM PABX answer :RQINZ     
+3:56:44 PM PABX answer :AREYUTHERE
+3:56:44 PMPMS Receiving AREYUTHERE and Sending ACK
+3:56:44 PM PABX answer :RQINZ     
+3:56:54 PM PABX answer :AREYUTHERE
+3:56:54 PMPMS Receiving AREYUTHERE and Sending ACK
+3:56:54 PM PABX answer :RQINZ     
+3:57:04 PM PABX answer :AREYUTHERE
+3:57:04 PMPMS Receiving AREYUTHERE and Sending ACK
+3:57:04 PM PABX answer :RQINZ     
+3:57:14 PM PABX answer :AREYUTHERE
+3:57:14 PMPMS Receiving AREYUTHERE and Sending ACK
+3:57:14 PM PABX answer :RQINZ     
+3:57:24 PM PABX answer :AREYUTHERE
+3:57:24 PMPMS Receiving AREYUTHERE and Sending ACK
+3:57:24 PM PABX answer :RQINZ     
+3:57:34 PM PABX answer :AREYUTHERE
+3:57:34 PMPMS Receiving AREYUTHERE and Sending ACK
+3:57:34 PM PABX answer :RQINZ     
+3:57:45 PM PABX answer :AREYUTHERE
+3:57:45 PMPMS Receiving AREYUTHERE and Sending ACK
+3:57:45 PM PABX answer :RQINZ     
+3:57:55 PM PABX answer :AREYUTHERE
+3:57:55 PMPMS Receiving AREYUTHERE and Sending ACK
+3:57:55 PM PABX answer :RQINZ     
+3:58:05 PM PABX answer :AREYUTHERE
+3:58:05 PMPMS Receiving AREYUTHERE and Sending ACK
+3:58:05 PM PABX answer :RQINZ     
+3:58:15 PM PABX answer :AREYUTHERE
+3:58:15 PMPMS Receiving AREYUTHERE and Sending ACK
+3:58:15 PM PABX answer :RQINZ     
+3:58:25 PM PABX answer :AREYUTHERE
+3:58:25 PMPMS Receiving AREYUTHERE and Sending ACK
+3:58:25 PM PABX answer :RQINZ     
+3:58:35 PM PABX answer :AREYUTHERE
+3:58:35 PMPMS Receiving AREYUTHERE and Sending ACK
+3:58:35 PM PABX answer :RQINZ     
+3:58:45 PM PABX answer :AREYUTHERE
+3:58:45 PMPMS Receiving AREYUTHERE and Sending ACK
+3:58:45 PM PABX answer :RQINZ     
+3:58:55 PM PABX answer :AREYUTHERE
+3:58:55 PMPMS Receiving AREYUTHERE and Sending ACK
+3:58:55 PM PABX answer :RQINZ     
+3:59:05 PM PABX answer :AREYUTHERE
+3:59:05 PMPMS Receiving AREYUTHERE and Sending ACK
+3:59:05 PM PABX answer :RQINZ     
+3:59:15 PM PABX answer :AREYUTHERE
+3:59:15 PMPMS Receiving AREYUTHERE and Sending ACK
+3:59:15 PM PABX answer :RQINZ     
+3:59:26 PM PABX answer :AREYUTHERE
+3:59:26 PMPMS Receiving AREYUTHERE and Sending ACK
+3:59:26 PM PABX answer :RQINZ     
+3:59:36 PM PABX answer :AREYUTHERE
+3:59:36 PMPMS Receiving AREYUTHERE and Sending ACK
+3:59:36 PM PABX answer :RQINZ     
+3:59:46 PM PABX answer :AREYUTHERE
+3:59:46 PMPMS Receiving AREYUTHERE and Sending ACK
+3:59:46 PM PABX answer :RQINZ     
+3:59:56 PM PABX answer :AREYUTHERE
+3:59:56 PMPMS Receiving AREYUTHERE and Sending ACK
+3:59:56 PM PABX answer :RQINZ     
+4:00:06 PM PABX answer :AREYUTHERE
+4:00:06 PMPMS Receiving AREYUTHERE and Sending ACK
+4:00:06 PM PABX answer :RQINZ     
+4:00:16 PM PABX answer :AREYUTHERE
+4:00:16 PMPMS Receiving AREYUTHERE and Sending ACK
+4:00:16 PM PABX answer :RQINZ     
+4:00:26 PM PABX answer :AREYUTHERE
+4:00:26 PMPMS Receiving AREYUTHERE and Sending ACK
+4:00:26 PM PABX answer :RQINZ     
+4:00:36 PM PABX answer :AREYUTHERE
+4:00:36 PMPMS Receiving AREYUTHERE and Sending ACK
+4:00:36 PM PABX answer :RQINZ     
+4:00:46 PM PABX answer :AREYUTHERE
+4:00:46 PMPMS Receiving AREYUTHERE and Sending ACK
+4:00:46 PM PABX answer :RQINZ     
+4:00:56 PM PABX answer :AREYUTHERE
+4:00:56 PMPMS Receiving AREYUTHERE and Sending ACK
+4:00:56 PM PABX answer :RQINZ     
+4:01:07 PM PABX answer :AREYUTHERE
+4:01:07 PMPMS Receiving AREYUTHERE and Sending ACK
+4:01:07 PM PABX answer :RQINZ     
+4:01:17 PM PABX answer :AREYUTHERE
+4:01:17 PMPMS Receiving AREYUTHERE and Sending ACK
+4:01:17 PM PABX answer :RQINZ     
+4:01:27 PM PABX answer :AREYUTHERE
+4:01:27 PMPMS Receiving AREYUTHERE and Sending ACK
+4:01:27 PM PABX answer :RQINZ     
+4:01:37 PM PABX answer :AREYUTHERE
+4:01:37 PMPMS Receiving AREYUTHERE and Sending ACK
+4:01:37 PM PABX answer :RQINZ     
+4:01:47 PM PABX answer :AREYUTHERE
+4:01:47 PMPMS Receiving AREYUTHERE and Sending ACK
+4:01:47 PM PABX answer :RQINZ     
+GRS       
+CHK0 8434    Form1               
+PMS Sent 15 RST3 8434    
+END       
+4:01:52 PM PABX answer :
+GRS       
+CHK1 8434    SETYAWAN            
+PMS Sent 15 RST3 8434    
+END       
+4:01:53 PM PABX answer :
+GRS       
+CHK0 8231    Form1               
+PMS Sent 15 RST3 8231    
+END       
+4:02:02 PM PABX answer :
+GRS       
+CHK1 8231    SETYAWAN            
+PMS Sent 15 RST3 8231    
+END       
+4:02:03 PM PABX answer :
+GRS       
+CHK1 8231    SETYAWAN            
+PMS Sent 15 RST3 8231    
+END       
+4:02:04 PM PABX answer :
+4:02:14 PM PABX answer :AREYUTHERE
+4:02:14 PMPMS Receiving AREYUTHERE and Sending ACK
+4:02:14 PM PABX answer :RQINZ     
+4:02:24 PM PABX answer :AREYUTHERE
+4:02:24 PMPMS Receiving AREYUTHERE and Sending ACK
+4:02:24 PM PABX answer :RQINZ     
+4:02:34 PM PABX answer :AREYUTHERE
+4:02:34 PMPMS Receiving AREYUTHERE and Sending ACK
+4:02:34 PM PABX answer :RQINZ     
+4:02:44 PM PABX answer :AREYUTHERE
+4:02:44 PMPMS Receiving AREYUTHERE and Sending ACK
+4:02:44 PM PABX answer :RQINZ     
+4:02:54 PM PABX answer :AREYUTHERE
+4:02:54 PMPMS Receiving AREYUTHERE and Sending ACK
+4:02:54 PM PABX answer :RQINZ     
+4:03:05 PM PABX answer :AREYUTHERE
+4:03:05 PMPMS Receiving AREYUTHERE and Sending ACK
+4:03:05 PM PABX answer :RQINZ     
+4:03:15 PM PABX answer :AREYUTHERE
+4:03:15 PMPMS Receiving AREYUTHERE and Sending ACK
+4:03:15 PM PABX answer :RQINZ     
+4:03:25 PM PABX answer :AREYUTHERE
+4:03:25 PMPMS Receiving AREYUTHERE and Sending ACK
+4:03:25 PM PABX answer :RQINZ     
+4:03:35 PM PABX answer :AREYUTHERE
+4:03:35 PMPMS Receiving AREYUTHERE and Sending ACK
+4:03:35 PM PABX answer :RQINZ     
+4:03:45 PM PABX answer :AREYUTHERE
+4:03:45 PMPMS Receiving AREYUTHERE and Sending ACK
+4:03:45 PM PABX answer :RQINZ     
+4:03:55 PM PABX answer :AREYUTHERE
+4:03:55 PMPMS Receiving AREYUTHERE and Sending ACK
+4:03:55 PM PABX answer :RQINZ     
+4:04:05 PM PABX answer :AREYUTHERE
+4:04:05 PMPMS Receiving AREYUTHERE and Sending ACK
+4:04:05 PM PABX answer :RQINZ     
+4:04:15 PM PABX answer :AREYUTHERE
+4:04:15 PMPMS Receiving AREYUTHERE and Sending ACK
+4:04:15 PM PABX answer :RQINZ     
+4:04:25 PM PABX answer :AREYUTHERE
+4:04:25 PMPMS Receiving AREYUTHERE and Sending ACK
+4:04:25 PM PABX answer :RQINZ     
+4:04:35 PM PABX answer :AREYUTHERE
+4:04:35 PMPMS Receiving AREYUTHERE and Sending ACK
+4:04:35 PM PABX answer :RQINZ     
+4:04:46 PM PABX answer :AREYUTHERE
+4:04:46 PMPMS Receiving AREYUTHERE and Sending ACK
+4:04:46 PM PABX answer :RQINZ     
+4:04:56 PM PABX answer :AREYUTHERE
+4:04:56 PMPMS Receiving AREYUTHERE and Sending ACK
+4:04:56 PM PABX answer :RQINZ     
+4:05:06 PM PABX answer :AREYUTHERE
+4:05:06 PMPMS Receiving AREYUTHERE and Sending ACK
+4:05:06 PM PABX answer :RQINZ     
+4:05:16 PM PABX answer :AREYUTHERE
+4:05:16 PMPMS Receiving AREYUTHERE and Sending ACK
+4:05:16 PM PABX answer :RQINZ     
+4:05:26 PM PABX answer :AREYUTHERE
+4:05:26 PMPMS Receiving AREYUTHERE and Sending ACK
+4:05:26 PM PABX answer :RQINZ     
+4:05:36 PM PABX answer :AREYUTHERE
+4:05:36 PMPMS Receiving AREYUTHERE and Sending ACK
+4:05:36 PM PABX answer :RQINZ     
+4:05:46 PM PABX answer :AREYUTHERE
+4:05:46 PMPMS Receiving AREYUTHERE and Sending ACK
+4:05:46 PM PABX answer :RQINZ     
+4:05:56 PM PABX answer :AREYUTHERE
+4:05:56 PMPMS Receiving AREYUTHERE and Sending ACK
+4:05:56 PM PABX answer :RQINZ     
+4:06:07 PM PABX answer :AREYUTHERE
+4:06:07 PMPMS Receiving AREYUTHERE and Sending ACK
+4:06:07 PM PABX answer :RQINZ     
+4:06:17 PM PABX answer :AREYUTHERE
+4:06:17 PMPMS Receiving AREYUTHERE and Sending ACK
+4:06:17 PM PABX answer :RQINZ     
+4:06:27 PM PABX answer :AREYUTHERE
+4:06:27 PMPMS Receiving AREYUTHERE and Sending ACK
+4:06:27 PM PABX answer :RQINZ     
+4:06:37 PM PABX answer :AREYUTHERE
+4:06:37 PMPMS Receiving AREYUTHERE and Sending ACK
+4:06:37 PM PABX answer :RQINZ     
+4:06:47 PM PABX answer :AREYUTHERE
+4:06:47 PMPMS Receiving AREYUTHERE and Sending ACK
+4:06:47 PM PABX answer :RQINZ     
+4:06:57 PM PABX answer :AREYUTHERE
+4:06:57 PMPMS Receiving AREYUTHERE and Sending ACK
+4:06:57 PM PABX answer :RQINZ     
+4:07:07 PM PABX answer :AREYUTHERE
+4:07:07 PMPMS Receiving AREYUTHERE and Sending ACK
+4:07:07 PM PABX answer :RQINZ     
+4:07:17 PM PABX answer :AREYUTHERE
+4:07:17 PMPMS Receiving AREYUTHERE and Sending ACK
+4:07:17 PM PABX answer :RQINZ     
+4:07:27 PM PABX answer :AREYUTHERE
+4:07:27 PMPMS Receiving AREYUTHERE and Sending ACK
+4:07:27 PM PABX answer :RQINZ     
+4:07:37 PM PABX answer :AREYUTHERE
+4:07:37 PMPMS Receiving AREYUTHERE and Sending ACK
+4:07:37 PM PABX answer :RQINZ     
+4:07:48 PM PABX answer :AREYUTHERE
+4:07:48 PMPMS Receiving AREYUTHERE and Sending ACK
+4:07:48 PM PABX answer :RQINZ     
+4:07:58 PM PABX answer :AREYUTHERE
+4:07:58 PMPMS Receiving AREYUTHERE and Sending ACK
+4:07:58 PM PABX answer :RQINZ     
+4:08:08 PM PABX answer :AREYUTHERE
+4:08:08 PMPMS Receiving AREYUTHERE and Sending ACK
+4:08:08 PM PABX answer :RQINZ     
+4:08:18 PM PABX answer :AREYUTHERE
+4:08:18 PMPMS Receiving AREYUTHERE and Sending ACK
+4:08:18 PM PABX answer :RQINZ     
+4:08:28 PM PABX answer :AREYUTHERE
+4:08:28 PMPMS Receiving AREYUTHERE and Sending ACK
+4:08:28 PM PABX answer :RQINZ     
+4:08:38 PM PABX answer :AREYUTHERE
+4:08:38 PMPMS Receiving AREYUTHERE and Sending ACK
+4:08:38 PM PABX answer :RQINZ     
+4:08:48 PM PABX answer :AREYUTHERE
+4:08:48 PMPMS Receiving AREYUTHERE and Sending ACK
+4:08:48 PM PABX answer :RQINZ     
+4:08:58 PM PABX answer :AREYUTHERE
+4:08:58 PMPMS Receiving AREYUTHERE and Sending ACK
+4:08:58 PM PABX answer :RQINZ     
+4:09:08 PM PABX answer :AREYUTHERE
+4:09:08 PMPMS Receiving AREYUTHERE and Sending ACK
+4:09:08 PM PABX answer :RQINZ     
+4:09:18 PM PABX answer :AREYUTHERE
+4:09:18 PMPMS Receiving AREYUTHERE and Sending ACK
+4:09:18 PM PABX answer :RQINZ     
+4:09:29 PM PABX answer :AREYUTHERE
+4:09:29 PMPMS Receiving AREYUTHERE and Sending ACK
+4:09:29 PM PABX answer :RQINZ     
+4:09:39 PM PABX answer :AREYUTHERE
+4:09:39 PMPMS Receiving AREYUTHERE and Sending ACK
+4:09:39 PM PABX answer :RQINZ     
+4:09:49 PM PABX answer :AREYUTHERE
+4:09:49 PMPMS Receiving AREYUTHERE and Sending ACK
+4:09:49 PM PABX answer :RQINZ     
+GRS       
+CHK0 8407    Form1               
+PMS Sent 15 RST3 8407    
+END       
+4:09:52 PM PABX answer :
+GRS       
+CHK1 8407    SATRIA              
+PMS Sent 15 RST3 8407    
+END       
+4:09:53 PM PABX answer :
+GRS       
+CHK1 8407    SATRIA              
+PMS Sent 15 RST3 8407    
+END       
+4:09:54 PM PABX answer :
+GRS       
+CHK0 8332    Form1               
+PMS Sent 15 RST3 8332    
+END       
+4:10:02 PM PABX answer :
+GRS       
+CHK1 8332    SUDARSONO M         
+PMS Sent 15 RST3 8332    
+END       
+4:10:03 PM PABX answer :
+4:10:13 PM PABX answer :AREYUTHERE
+4:10:13 PMPMS Receiving AREYUTHERE and Sending ACK
+4:10:13 PM PABX answer :RQINZ     
+4:10:23 PM PABX answer :AREYUTHERE
+4:10:23 PMPMS Receiving AREYUTHERE and Sending ACK
+4:10:23 PM PABX answer :RQINZ     
+4:10:33 PM PABX answer :AREYUTHERE
+4:10:33 PMPMS Receiving AREYUTHERE and Sending ACK
+4:10:33 PM PABX answer :RQINZ     
+4:10:43 PM PABX answer :AREYUTHERE
+4:10:43 PMPMS Receiving AREYUTHERE and Sending ACK
+4:10:43 PM PABX answer :RQINZ     
+4:10:53 PM PABX answer :AREYUTHERE
+4:10:53 PMPMS Receiving AREYUTHERE and Sending ACK
+4:10:53 PM PABX answer :RQINZ     
+4:11:04 PM PABX answer :AREYUTHERE
+4:11:04 PMPMS Receiving AREYUTHERE and Sending ACK
+4:11:04 PM PABX answer :RQINZ     
+4:11:14 PM PABX answer :AREYUTHERE
+4:11:14 PMPMS Receiving AREYUTHERE and Sending ACK
+4:11:14 PM PABX answer :RQINZ     
+4:11:24 PM PABX answer :AREYUTHERE
+4:11:24 PMPMS Receiving AREYUTHERE and Sending ACK
+4:11:24 PM PABX answer :RQINZ     
+4:11:34 PM PABX answer :AREYUTHERE
+4:11:34 PMPMS Receiving AREYUTHERE and Sending ACK
+4:11:34 PM PABX answer :RQINZ     
+4:11:44 PM PABX answer :AREYUTHERE
+4:11:44 PMPMS Receiving AREYUTHERE and Sending ACK
+4:11:44 PM PABX answer :RQINZ     
+4:11:54 PM PABX answer :AREYUTHERE
+4:11:54 PMPMS Receiving AREYUTHERE and Sending ACK
+4:11:54 PM PABX answer :RQINZ     
+4:12:04 PM PABX answer :AREYUTHERE
+4:12:04 PMPMS Receiving AREYUTHERE and Sending ACK
+4:12:04 PM PABX answer :RQINZ     
+4:12:14 PM PABX answer :AREYUTHERE
+4:12:14 PMPMS Receiving AREYUTHERE and Sending ACK
+4:12:14 PM PABX answer :RQINZ     
+4:12:24 PM PABX answer :AREYUTHERE
+4:12:24 PMPMS Receiving AREYUTHERE and Sending ACK
+4:12:24 PM PABX answer :RQINZ     
+4:12:35 PM PABX answer :AREYUTHERE
+4:12:35 PMPMS Receiving AREYUTHERE and Sending ACK
+4:12:35 PM PABX answer :RQINZ     
+4:12:45 PM PABX answer :AREYUTHERE
+4:12:45 PMPMS Receiving AREYUTHERE and Sending ACK
+4:12:45 PM PABX answer :RQINZ     
+4:12:55 PM PABX answer :AREYUTHERE
+4:12:55 PMPMS Receiving AREYUTHERE and Sending ACK
+4:12:55 PM PABX answer :RQINZ     
+4:13:05 PM PABX answer :AREYUTHERE
+4:13:05 PMPMS Receiving AREYUTHERE and Sending ACK
+4:13:05 PM PABX answer :RQINZ     
+4:13:15 PM PABX answer :AREYUTHERE
+4:13:15 PMPMS Receiving AREYUTHERE and Sending ACK
+4:13:15 PM PABX answer :RQINZ     
+4:13:25 PM PABX answer :AREYUTHERE
+4:13:25 PMPMS Receiving AREYUTHERE and Sending ACK
+4:13:25 PM PABX answer :RQINZ     
+4:13:35 PM PABX answer :AREYUTHERE
+4:13:35 PMPMS Receiving AREYUTHERE and Sending ACK
+4:13:35 PM PABX answer :RQINZ     
+4:13:45 PM PABX answer :AREYUTHERE
+4:13:45 PMPMS Receiving AREYUTHERE and Sending ACK
+4:13:45 PM PABX answer :RQINZ     
+4:13:55 PM PABX answer :AREYUTHERE
+4:13:55 PMPMS Receiving AREYUTHERE and Sending ACK
+4:13:55 PM PABX answer :RQINZ     
+4:14:05 PM PABX answer :AREYUTHERE
+4:14:05 PMPMS Receiving AREYUTHERE and Sending ACK
+4:14:05 PM PABX answer :RQINZ     
+4:14:16 PM PABX answer :AREYUTHERE
+4:14:16 PMPMS Receiving AREYUTHERE and Sending ACK
+4:14:16 PM PABX answer :RQINZ     
+4:14:26 PM PABX answer :AREYUTHERE
+4:14:26 PMPMS Receiving AREYUTHERE and Sending ACK
+4:14:26 PM PABX answer :RQINZ     
+4:14:36 PM PABX answer :AREYUTHERE
+4:14:36 PMPMS Receiving AREYUTHERE and Sending ACK
+4:14:36 PM PABX answer :RQINZ     
+4:14:46 PM PABX answer :AREYUTHERE
+4:14:46 PMPMS Receiving AREYUTHERE and Sending ACK
+4:14:46 PM PABX answer :RQINZ     
+4:14:56 PM PABX answer :AREYUTHERE
+4:14:56 PMPMS Receiving AREYUTHERE and Sending ACK
+4:14:56 PM PABX answer :RQINZ     
+4:15:06 PM PABX answer :AREYUTHERE
+4:15:06 PMPMS Receiving AREYUTHERE and Sending ACK
+4:15:06 PM PABX answer :RQINZ     
+4:15:16 PM PABX answer :AREYUTHERE
+4:15:16 PMPMS Receiving AREYUTHERE and Sending ACK
+4:15:16 PM PABX answer :RQINZ     
+4:15:26 PM PABX answer :AREYUTHERE
+4:15:26 PMPMS Receiving AREYUTHERE and Sending ACK
+4:15:26 PM PABX answer :RQINZ     
+4:15:36 PM PABX answer :AREYUTHERE
+4:15:36 PMPMS Receiving AREYUTHERE and Sending ACK
+4:15:36 PM PABX answer :RQINZ     
+4:15:46 PM PABX answer :AREYUTHERE
+4:15:46 PMPMS Receiving AREYUTHERE and Sending ACK
+4:15:46 PM PABX answer :RQINZ     
+4:15:57 PM PABX answer :AREYUTHERE
+4:15:57 PMPMS Receiving AREYUTHERE and Sending ACK
+4:15:57 PM PABX answer :RQINZ     
+4:16:07 PM PABX answer :AREYUTHERE
+4:16:07 PMPMS Receiving AREYUTHERE and Sending ACK
+4:16:07 PM PABX answer :RQINZ     
+4:16:17 PM PABX answer :AREYUTHERE
+4:16:17 PMPMS Receiving AREYUTHERE and Sending ACK
+4:16:17 PM PABX answer :RQINZ     
+4:16:27 PM PABX answer :AREYUTHERE
+4:16:27 PMPMS Receiving AREYUTHERE and Sending ACK
+4:16:27 PM PABX answer :RQINZ     
+4:16:37 PM PABX answer :AREYUTHERE
+4:16:37 PMPMS Receiving AREYUTHERE and Sending ACK
+4:16:37 PM PABX answer :RQINZ     
+4:16:47 PM PABX answer :AREYUTHERE
+4:16:47 PMPMS Receiving AREYUTHERE and Sending ACK
+4:16:47 PM PABX answer :RQINZ     
+4:16:57 PM PABX answer :AREYUTHERE
+4:16:57 PMPMS Receiving AREYUTHERE and Sending ACK
+4:16:57 PM PABX answer :RQINZ     
+4:17:07 PM PABX answer :AREYUTHERE
+4:17:07 PMPMS Receiving AREYUTHERE and Sending ACK
+4:17:07 PM PABX answer :RQINZ     
+4:17:17 PM PABX answer :AREYUTHERE
+4:17:17 PMPMS Receiving AREYUTHERE and Sending ACK
+4:17:17 PM PABX answer :RQINZ     
+4:17:27 PM PABX answer :AREYUTHERE
+4:17:27 PMPMS Receiving AREYUTHERE and Sending ACK
+4:17:28 PM PABX answer :RQINZ     
+4:17:38 PM PABX answer :AREYUTHERE
+4:17:38 PMPMS Receiving AREYUTHERE and Sending ACK
+4:17:38 PM PABX answer :RQINZ     
+4:17:48 PM PABX answer :AREYUTHERE
+4:17:48 PMPMS Receiving AREYUTHERE and Sending ACK
+4:17:48 PM PABX answer :RQINZ     
+4:17:58 PM PABX answer :AREYUTHERE
+4:17:58 PMPMS Receiving AREYUTHERE and Sending ACK
+4:17:58 PM PABX answer :RQINZ     
+4:18:08 PM PABX answer :AREYUTHERE
+4:18:08 PMPMS Receiving AREYUTHERE and Sending ACK
+4:18:08 PM PABX answer :RQINZ     
+4:18:18 PM PABX answer :AREYUTHERE
+4:18:18 PMPMS Receiving AREYUTHERE and Sending ACK
+4:18:18 PM PABX answer :RQINZ     
+4:18:28 PM PABX answer :AREYUTHERE
+4:18:28 PMPMS Receiving AREYUTHERE and Sending ACK
+4:18:28 PM PABX answer :RQINZ     
+4:18:38 PM PABX answer :AREYUTHERE
+4:18:38 PMPMS Receiving AREYUTHERE and Sending ACK
+4:18:38 PM PABX answer :RQINZ     
+4:18:48 PM PABX answer :AREYUTHERE
+4:18:48 PMPMS Receiving AREYUTHERE and Sending ACK
+4:18:48 PM PABX answer :RQINZ     
+4:18:58 PM PABX answer :AREYUTHERE
+4:18:58 PMPMS Receiving AREYUTHERE and Sending ACK
+4:18:58 PM PABX answer :RQINZ     
+4:19:09 PM PABX answer :AREYUTHERE
+4:19:09 PMPMS Receiving AREYUTHERE and Sending ACK
+4:19:09 PM PABX answer :RQINZ     
+4:19:19 PM PABX answer :AREYUTHERE
+4:19:19 PMPMS Receiving AREYUTHERE and Sending ACK
+4:19:19 PM PABX answer :RQINZ     
+4:19:29 PM PABX answer :AREYUTHERE
+4:19:29 PMPMS Receiving AREYUTHERE and Sending ACK
+4:19:29 PM PABX answer :RQINZ     
+4:19:39 PM PABX answer :AREYUTHERE
+4:19:39 PMPMS Receiving AREYUTHERE and Sending ACK
+4:19:39 PM PABX answer :RQINZ     
+4:19:49 PM PABX answer :AREYUTHERE
+4:19:49 PMPMS Receiving AREYUTHERE and Sending ACK
+4:19:49 PM PABX answer :RQINZ     
+4:19:59 PM PABX answer :AREYUTHERE
+4:19:59 PMPMS Receiving AREYUTHERE and Sending ACK
+4:19:59 PM PABX answer :RQINZ     
+4:20:09 PM PABX answer :AREYUTHERE
+4:20:09 PMPMS Receiving AREYUTHERE and Sending ACK
+4:20:09 PM PABX answer :RQINZ     
+4:20:19 PM PABX answer :AREYUTHERE
+4:20:19 PMPMS Receiving AREYUTHERE and Sending ACK
+4:20:19 PM PABX answer :RQINZ     
+4:20:29 PM PABX answer :AREYUTHERE
+4:20:29 PMPMS Receiving AREYUTHERE and Sending ACK
+4:20:30 PM PABX answer :RQINZ     
+4:20:40 PM PABX answer :AREYUTHERE
+4:20:40 PMPMS Receiving AREYUTHERE and Sending ACK
+4:20:40 PM PABX answer :RQINZ     
+4:20:50 PM PABX answer :AREYUTHERE
+4:20:50 PMPMS Receiving AREYUTHERE and Sending ACK
+4:20:50 PM PABX answer :RQINZ     
+4:21:00 PM PABX answer :AREYUTHERE
+4:21:00 PMPMS Receiving AREYUTHERE and Sending ACK
+4:21:00 PM PABX answer :RQINZ     
+4:21:10 PM PABX answer :AREYUTHERE
+4:21:10 PMPMS Receiving AREYUTHERE and Sending ACK
+4:21:10 PM PABX answer :RQINZ     
+4:21:20 PM PABX answer :AREYUTHERE
+4:21:20 PMPMS Receiving AREYUTHERE and Sending ACK
+4:21:20 PM PABX answer :RQINZ     
+4:21:30 PM PABX answer :AREYUTHERE
+4:21:30 PMPMS Receiving AREYUTHERE and Sending ACK
+4:21:30 PM PABX answer :RQINZ     
+4:21:40 PM PABX answer :AREYUTHERE
+4:21:40 PMPMS Receiving AREYUTHERE and Sending ACK
+4:21:40 PM PABX answer :RQINZ     
+4:21:50 PM PABX answer :AREYUTHERE
+4:21:50 PMPMS Receiving AREYUTHERE and Sending ACK
+4:21:50 PM PABX answer :RQINZ     
+4:22:00 PM PABX answer :AREYUTHERE
+4:22:00 PMPMS Receiving AREYUTHERE and Sending ACK
+4:22:00 PM PABX answer :RQINZ     
+4:22:11 PM PABX answer :AREYUTHERE
+4:22:11 PMPMS Receiving AREYUTHERE and Sending ACK
+4:22:11 PM PABX answer :RQINZ     
+4:22:21 PM PABX answer :AREYUTHERE
+4:22:21 PMPMS Receiving AREYUTHERE and Sending ACK
+4:22:22 PM PABX answer :RQINZ     
+4:22:31 PM PABX answer :AREYUTHERE
+4:22:31 PMPMS Receiving AREYUTHERE and Sending ACK
+4:22:31 PM PABX answer :RQINZ     
+4:22:41 PM PABX answer :AREYUTHERE
+4:22:41 PMPMS Receiving AREYUTHERE and Sending ACK
+4:22:41 PM PABX answer :RQINZ     
+4:22:51 PM PABX answer :AREYUTHERE
+4:22:51 PMPMS Receiving AREYUTHERE and Sending ACK
+4:22:51 PM PABX answer :RQINZ     
+4:23:01 PM PABX answer :AREYUTHERE
+4:23:01 PMPMS Receiving AREYUTHERE and Sending ACK
+4:23:01 PM PABX answer :RQINZ     
+4:23:11 PM PABX answer :AREYUTHERE
+4:23:11 PMPMS Receiving AREYUTHERE and Sending ACK
+4:23:11 PM PABX answer :RQINZ     
+4:23:21 PM PABX answer :AREYUTHERE
+4:23:21 PMPMS Receiving AREYUTHERE and Sending ACK
+4:23:21 PM PABX answer :RQINZ     
+4:23:32 PM PABX answer :AREYUTHERE
+4:23:32 PMPMS Receiving AREYUTHERE and Sending ACK
+4:23:32 PM PABX answer :RQINZ     
+4:23:42 PM PABX answer :AREYUTHERE
+4:23:42 PMPMS Receiving AREYUTHERE and Sending ACK
+4:23:42 PM PABX answer :RQINZ     
+4:23:52 PM PABX answer :AREYUTHERE
+4:23:52 PMPMS Receiving AREYUTHERE and Sending ACK
+4:23:52 PM PABX answer :RQINZ     
+4:24:02 PM PABX answer :AREYUTHERE
+4:24:02 PMPMS Receiving AREYUTHERE and Sending ACK
+4:24:02 PM PABX answer :RQINZ     
+4:24:13 PM PABX answer :AREYUTHERE
+4:24:13 PMPMS Receiving AREYUTHERE and Sending ACK
+4:24:13 PM PABX answer :RQINZ     
+4:24:23 PM PABX answer :AREYUTHERE
+4:24:23 PMPMS Receiving AREYUTHERE and Sending ACK
+4:24:23 PM PABX answer :RQINZ     
+4:24:33 PM PABX answer :AREYUTHERE
+4:24:33 PMPMS Receiving AREYUTHERE and Sending ACK
+4:24:33 PM PABX answer :RQINZ     
+4:24:43 PM PABX answer :AREYUTHERE
+4:24:43 PMPMS Receiving AREYUTHERE and Sending ACK
+4:24:43 PM PABX answer :RQINZ     
+4:24:53 PM PABX answer :AREYUTHERE
+4:24:53 PMPMS Receiving AREYUTHERE and Sending ACK
+4:24:53 PM PABX answer :RQINZ     
+4:25:03 PM PABX answer :AREYUTHERE
+4:25:03 PMPMS Receiving AREYUTHERE and Sending ACK
+4:25:03 PM PABX answer :RQINZ     
+4:25:13 PM PABX answer :AREYUTHERE
+4:25:13 PMPMS Receiving AREYUTHERE and Sending ACK
+4:25:13 PM PABX answer :RQINZ     
+4:25:23 PM PABX answer :AREYUTHERE
+4:25:23 PMPMS Receiving AREYUTHERE and Sending ACK
+4:25:23 PM PABX answer :RQINZ     
+4:25:33 PM PABX answer :AREYUTHERE
+4:25:33 PMPMS Receiving AREYUTHERE and Sending ACK
+4:25:33 PM PABX answer :RQINZ     
+4:25:43 PM PABX answer :AREYUTHERE
+4:25:43 PMPMS Receiving AREYUTHERE and Sending ACK
+4:25:43 PM PABX answer :RQINZ     
+4:25:54 PM PABX answer :AREYUTHERE
+4:25:54 PMPMS Receiving AREYUTHERE and Sending ACK
+4:25:54 PM PABX answer :RQINZ     
+4:26:04 PM PABX answer :AREYUTHERE
+4:26:04 PMPMS Receiving AREYUTHERE and Sending ACK
+4:26:04 PM PABX answer :RQINZ     
+4:26:14 PM PABX answer :AREYUTHERE
+4:26:14 PMPMS Receiving AREYUTHERE and Sending ACK
+4:26:14 PM PABX answer :RQINZ     
+4:26:24 PM PABX answer :AREYUTHERE
+4:26:24 PMPMS Receiving AREYUTHERE and Sending ACK
+4:26:24 PM PABX answer :RQINZ     
+4:26:34 PM PABX answer :AREYUTHERE
+4:26:34 PMPMS Receiving AREYUTHERE and Sending ACK
+4:26:34 PM PABX answer :RQINZ     
+4:26:44 PM PABX answer :AREYUTHERE
+4:26:44 PMPMS Receiving AREYUTHERE and Sending ACK
+4:26:44 PM PABX answer :RQINZ     
+4:26:54 PM PABX answer :AREYUTHERE
+4:26:54 PMPMS Receiving AREYUTHERE and Sending ACK
+4:26:54 PM PABX answer :RQINZ     
+4:27:04 PM PABX answer :AREYUTHERE
+4:27:04 PMPMS Receiving AREYUTHERE and Sending ACK
+4:27:04 PM PABX answer :RQINZ     
+4:27:14 PM PABX answer :AREYUTHERE
+4:27:14 PMPMS Receiving AREYUTHERE and Sending ACK
+4:27:14 PM PABX answer :RQINZ     
+4:27:24 PM PABX answer :AREYUTHERE
+4:27:24 PMPMS Receiving AREYUTHERE and Sending ACK
+4:27:24 PM PABX answer :RQINZ     
+4:27:35 PM PABX answer :AREYUTHERE
+4:27:35 PMPMS Receiving AREYUTHERE and Sending ACK
+4:27:35 PM PABX answer :RQINZ     
+4:27:45 PM PABX answer :AREYUTHERE
+4:27:45 PMPMS Receiving AREYUTHERE and Sending ACK
+4:27:45 PM PABX answer :RQINZ     
+4:27:55 PM PABX answer :AREYUTHERE
+4:27:55 PMPMS Receiving AREYUTHERE and Sending ACK
+4:27:55 PM PABX answer :RQINZ     
+4:28:05 PM PABX answer :AREYUTHERE
+4:28:05 PMPMS Receiving AREYUTHERE and Sending ACK
+4:28:05 PM PABX answer :RQINZ     
+4:28:15 PM PABX answer :AREYUTHERE
+4:28:15 PMPMS Receiving AREYUTHERE and Sending ACK
+4:28:15 PM PABX answer :RQINZ     
+4:28:25 PM PABX answer :AREYUTHERE
+4:28:25 PMPMS Receiving AREYUTHERE and Sending ACK
+4:28:25 PM PABX answer :RQINZ     
+4:28:35 PM PABX answer :AREYUTHERE
+4:28:35 PMPMS Receiving AREYUTHERE and Sending ACK
+4:28:35 PM PABX answer :RQINZ     
+4:28:45 PM PABX answer :AREYUTHERE
+4:28:45 PMPMS Receiving AREYUTHERE and Sending ACK
+4:28:45 PM PABX answer :RQINZ     
+4:28:55 PM PABX answer :AREYUTHERE
+4:28:55 PMPMS Receiving AREYUTHERE and Sending ACK
+4:28:55 PM PABX answer :RQINZ     
+4:29:05 PM PABX answer :AREYUTHERE
+4:29:05 PMPMS Receiving AREYUTHERE and Sending ACK
+4:29:05 PM PABX answer :RQINZ     
+4:29:16 PM PABX answer :AREYUTHERE
+4:29:16 PMPMS Receiving AREYUTHERE and Sending ACK
+4:29:16 PM PABX answer :RQINZ     
+4:29:26 PM PABX answer :AREYUTHERE
+4:29:26 PMPMS Receiving AREYUTHERE and Sending ACK
+4:29:26 PM PABX answer :RQINZ     
+4:29:36 PM PABX answer :AREYUTHERE
+4:29:36 PMPMS Receiving AREYUTHERE and Sending ACK
+4:29:36 PM PABX answer :RQINZ     
+4:29:46 PM PABX answer :AREYUTHERE
+4:29:46 PMPMS Receiving AREYUTHERE and Sending ACK
+4:29:46 PM PABX answer :RQINZ     
+4:29:56 PM PABX answer :AREYUTHERE
+4:29:56 PMPMS Receiving AREYUTHERE and Sending ACK
+4:29:56 PM PABX answer :RQINZ     
+4:30:06 PM PABX answer :AREYUTHERE
+4:30:06 PMPMS Receiving AREYUTHERE and Sending ACK
+4:30:06 PM PABX answer :RQINZ     
+4:30:16 PM PABX answer :AREYUTHERE
+4:30:16 PMPMS Receiving AREYUTHERE and Sending ACK
+4:30:16 PM PABX answer :RQINZ     
+4:30:26 PM PABX answer :AREYUTHERE
+4:30:26 PMPMS Receiving AREYUTHERE and Sending ACK
+4:30:26 PM PABX answer :RQINZ     
+4:30:36 PM PABX answer :AREYUTHERE
+4:30:36 PMPMS Receiving AREYUTHERE and Sending ACK
+4:30:36 PM PABX answer :RQINZ     
+4:30:46 PM PABX answer :AREYUTHERE
+4:30:46 PMPMS Receiving AREYUTHERE and Sending ACK
+4:30:46 PM PABX answer :RQINZ     
+4:30:57 PM PABX answer :AREYUTHERE
+4:30:57 PMPMS Receiving AREYUTHERE and Sending ACK
+4:30:57 PM PABX answer :RQINZ     
+4:31:07 PM PABX answer :AREYUTHERE
+4:31:07 PMPMS Receiving AREYUTHERE and Sending ACK
+4:31:07 PM PABX answer :RQINZ     
+4:31:17 PM PABX answer :AREYUTHERE
+4:31:17 PMPMS Receiving AREYUTHERE and Sending ACK
+4:31:17 PM PABX answer :RQINZ     
+4:31:27 PM PABX answer :AREYUTHERE
+4:31:27 PMPMS Receiving AREYUTHERE and Sending ACK
+4:31:27 PM PABX answer :RQINZ     
+4:31:37 PM PABX answer :AREYUTHERE
+4:31:37 PMPMS Receiving AREYUTHERE and Sending ACK
+4:31:38 PM PABX answer :RQINZ     
+4:31:48 PM PABX answer :AREYUTHERE
+4:31:48 PMPMS Receiving AREYUTHERE and Sending ACK
+4:31:48 PM PABX answer :RQINZ     
+4:31:58 PM PABX answer :AREYUTHERE
+4:31:58 PMPMS Receiving AREYUTHERE and Sending ACK
+4:31:58 PM PABX answer :RQINZ     
+4:32:08 PM PABX answer :AREYUTHERE
+4:32:08 PMPMS Receiving AREYUTHERE and Sending ACK
+4:32:08 PM PABX answer :RQINZ     
+4:32:18 PM PABX answer :AREYUTHERE
+4:32:18 PMPMS Receiving AREYUTHERE and Sending ACK
+4:32:18 PM PABX answer :RQINZ     
+4:32:28 PM PABX answer :AREYUTHERE
+4:32:28 PMPMS Receiving AREYUTHERE and Sending ACK
+4:32:28 PM PABX answer :RQINZ     
+4:32:38 PM PABX answer :AREYUTHERE
+4:32:38 PMPMS Receiving AREYUTHERE and Sending ACK
+4:32:38 PM PABX answer :RQINZ     
+4:32:48 PM PABX answer :AREYUTHERE
+4:32:48 PMPMS Receiving AREYUTHERE and Sending ACK
+4:32:48 PM PABX answer :RQINZ     
+4:32:58 PM PABX answer :AREYUTHERE
+4:32:58 PMPMS Receiving AREYUTHERE and Sending ACK
+4:32:58 PM PABX answer :RQINZ     
+4:33:08 PM PABX answer :AREYUTHERE
+4:33:08 PMPMS Receiving AREYUTHERE and Sending ACK
+4:33:08 PM PABX answer :RQINZ     
+4:33:19 PM PABX answer :AREYUTHERE
+4:33:19 PMPMS Receiving AREYUTHERE and Sending ACK
+4:33:19 PM PABX answer :RQINZ     
+4:33:29 PM PABX answer :AREYUTHERE
+4:33:29 PMPMS Receiving AREYUTHERE and Sending ACK
+4:33:29 PM PABX answer :RQINZ     
+4:33:39 PM PABX answer :AREYUTHERE
+4:33:39 PMPMS Receiving AREYUTHERE and Sending ACK
+4:33:39 PM PABX answer :RQINZ     
+4:33:49 PM PABX answer :AREYUTHERE
+4:33:49 PMPMS Receiving AREYUTHERE and Sending ACK
+4:33:49 PM PABX answer :RQINZ     
+4:33:59 PM PABX answer :AREYUTHERE
+4:33:59 PMPMS Receiving AREYUTHERE and Sending ACK
+4:33:59 PM PABX answer :RQINZ     
+4:34:09 PM PABX answer :AREYUTHERE
+4:34:09 PMPMS Receiving AREYUTHERE and Sending ACK
+4:34:09 PM PABX answer :RQINZ     
+4:34:19 PM PABX answer :AREYUTHERE
+4:34:19 PMPMS Receiving AREYUTHERE and Sending ACK
+4:34:19 PM PABX answer :RQINZ     
+4:34:29 PM PABX answer :AREYUTHERE
+4:34:29 PMPMS Receiving AREYUTHERE and Sending ACK
+4:34:29 PM PABX answer :RQINZ     
+4:34:39 PM PABX answer :AREYUTHERE
+4:34:39 PMPMS Receiving AREYUTHERE and Sending ACK
+4:34:39 PM PABX answer :RQINZ     
+4:34:49 PM PABX answer :AREYUTHERE
+4:34:49 PMPMS Receiving AREYUTHERE and Sending ACK
+4:34:49 PM PABX answer :RQINZ     
+4:35:00 PM PABX answer :AREYUTHERE
+4:35:00 PMPMS Receiving AREYUTHERE and Sending ACK
+4:35:00 PM PABX answer :RQINZ     
+4:35:10 PM PABX answer :AREYUTHERE
+4:35:10 PMPMS Receiving AREYUTHERE and Sending ACK
+4:35:10 PM PABX answer :RQINZ     
+4:35:20 PM PABX answer :AREYUTHERE
+4:35:20 PMPMS Receiving AREYUTHERE and Sending ACK
+4:35:20 PM PABX answer :RQINZ     
+4:35:30 PM PABX answer :AREYUTHERE
+4:35:30 PMPMS Receiving AREYUTHERE and Sending ACK
+4:35:30 PM PABX answer :RQINZ     
+4:35:40 PM PABX answer :AREYUTHERE
+4:35:40 PMPMS Receiving AREYUTHERE and Sending ACK
+4:35:40 PM PABX answer :RQINZ     
+4:35:50 PM PABX answer :AREYUTHERE
+4:35:50 PMPMS Receiving AREYUTHERE and Sending ACK
+4:35:50 PM PABX answer :RQINZ     
+4:36:00 PM PABX answer :AREYUTHERE
+4:36:00 PMPMS Receiving AREYUTHERE and Sending ACK
+4:36:00 PM PABX answer :RQINZ     
+4:36:10 PM PABX answer :AREYUTHERE
+4:36:10 PMPMS Receiving AREYUTHERE and Sending ACK
+4:36:10 PM PABX answer :RQINZ     
+4:36:20 PM PABX answer :AREYUTHERE
+4:36:20 PMPMS Receiving AREYUTHERE and Sending ACK
+4:36:20 PM PABX answer :RQINZ     
+4:36:30 PM PABX answer :AREYUTHERE
+4:36:30 PMPMS Receiving AREYUTHERE and Sending ACK
+4:36:30 PM PABX answer :RQINZ     
+4:36:41 PM PABX answer :AREYUTHERE
+4:36:41 PMPMS Receiving AREYUTHERE and Sending ACK
+4:36:41 PM PABX answer :RQINZ     
+4:36:51 PM PABX answer :AREYUTHERE
+4:36:51 PMPMS Receiving AREYUTHERE and Sending ACK
+4:36:51 PM PABX answer :RQINZ     
+4:37:01 PM PABX answer :AREYUTHERE
+4:37:01 PMPMS Receiving AREYUTHERE and Sending ACK
+4:37:01 PM PABX answer :RQINZ     
+4:37:11 PM PABX answer :AREYUTHERE
+4:37:11 PMPMS Receiving AREYUTHERE and Sending ACK
+4:37:11 PM PABX answer :RQINZ     
+4:37:21 PM PABX answer :AREYUTHERE
+4:37:21 PMPMS Receiving AREYUTHERE and Sending ACK
+4:37:21 PM PABX answer :RQINZ     
+4:37:31 PM PABX answer :AREYUTHERE
+4:37:31 PMPMS Receiving AREYUTHERE and Sending ACK
+4:37:31 PM PABX answer :RQINZ     
+4:37:41 PM PABX answer :AREYUTHERE
+4:37:41 PMPMS Receiving AREYUTHERE and Sending ACK
+4:37:41 PM PABX answer :RQINZ     
+4:37:51 PM PABX answer :AREYUTHERE
+4:37:51 PMPMS Receiving AREYUTHERE and Sending ACK
+4:37:51 PM PABX answer :RQINZ     
+4:38:02 PM PABX answer :AREYUTHERE
+4:38:02 PMPMS Receiving AREYUTHERE and Sending ACK
+4:38:02 PM PABX answer :RQINZ     
+4:38:12 PM PABX answer :AREYUTHERE
+4:38:12 PMPMS Receiving AREYUTHERE and Sending ACK
+4:38:12 PM PABX answer :RQINZ     
+4:38:22 PM PABX answer :AREYUTHERE
+4:38:22 PMPMS Receiving AREYUTHERE and Sending ACK
+4:38:22 PM PABX answer :RQINZ     
+4:38:32 PM PABX answer :AREYUTHERE
+4:38:32 PMPMS Receiving AREYUTHERE and Sending ACK
+4:38:32 PM PABX answer :RQINZ     
+4:38:42 PM PABX answer :AREYUTHERE
+4:38:42 PMPMS Receiving AREYUTHERE and Sending ACK
+4:38:42 PM PABX answer :RQINZ     
+4:38:52 PM PABX answer :AREYUTHERE
+4:38:52 PMPMS Receiving AREYUTHERE and Sending ACK
+4:38:52 PM PABX answer :RQINZ     
+4:39:02 PM PABX answer :AREYUTHERE
+4:39:02 PMPMS Receiving AREYUTHERE and Sending ACK
+4:39:03 PM PABX answer :RQINZ     
+4:39:13 PM PABX answer :AREYUTHERE
+4:39:13 PMPMS Receiving AREYUTHERE and Sending ACK
+4:39:13 PM PABX answer :RQINZ     
+4:39:23 PM PABX answer :AREYUTHERE
+4:39:23 PMPMS Receiving AREYUTHERE and Sending ACK
+4:39:23 PM PABX answer :RQINZ     
+4:39:33 PM PABX answer :AREYUTHERE
+4:39:33 PMPMS Receiving AREYUTHERE and Sending ACK
+4:39:33 PM PABX answer :RQINZ     
+4:39:43 PM PABX answer :AREYUTHERE
+4:39:43 PMPMS Receiving AREYUTHERE and Sending ACK
+4:39:43 PM PABX answer :RQINZ     
+4:39:53 PM PABX answer :AREYUTHERE
+4:39:53 PMPMS Receiving AREYUTHERE and Sending ACK
+4:39:53 PM PABX answer :RQINZ     
+4:40:03 PM PABX answer :AREYUTHERE
+4:40:03 PMPMS Receiving AREYUTHERE and Sending ACK
+4:40:03 PM PABX answer :RQINZ     
+4:40:13 PM PABX answer :AREYUTHERE
+4:40:13 PMPMS Receiving AREYUTHERE and Sending ACK
+4:40:13 PM PABX answer :RQINZ     
+4:40:23 PM PABX answer :AREYUTHERE
+4:40:23 PMPMS Receiving AREYUTHERE and Sending ACK
+4:40:23 PM PABX answer :RQINZ     
+4:40:33 PM PABX answer :AREYUTHERE
+4:40:33 PMPMS Receiving AREYUTHERE and Sending ACK
+4:40:33 PM PABX answer :RQINZ     
+4:40:43 PM PABX answer :AREYUTHERE
+4:40:44 PMPMS Receiving AREYUTHERE and Sending ACK
+4:40:44 PM PABX answer :RQINZ     
+4:40:54 PM PABX answer :AREYUTHERE
+4:40:54 PMPMS Receiving AREYUTHERE and Sending ACK
+4:40:54 PM PABX answer :RQINZ     
+4:41:04 PM PABX answer :AREYUTHERE
+4:41:04 PMPMS Receiving AREYUTHERE and Sending ACK
+4:41:04 PM PABX answer :RQINZ     
+4:41:14 PM PABX answer :AREYUTHERE
+4:41:14 PMPMS Receiving AREYUTHERE and Sending ACK
+4:41:14 PM PABX answer :RQINZ     
+4:41:24 PM PABX answer :AREYUTHERE
+4:41:24 PMPMS Receiving AREYUTHERE and Sending ACK
+4:41:24 PM PABX answer :RQINZ     
+4:41:34 PM PABX answer :AREYUTHERE
+4:41:34 PMPMS Receiving AREYUTHERE and Sending ACK
+4:41:34 PM PABX answer :RQINZ     
+GRS       
+CHK0 8201    
+CHK0 8202    
+CHK1 8203    
+CHK0 8204    
+CHK0 8205    
+CHK0 8206    
+CHK1 8207    
+CHK0 8208    
+CHK0 8209    
+CHK0 8210    
+CHK0 8211    
+CHK0 8212    
+CHK1 8213    
+CHK0 8214    
+CHK0 8215    
+CHK0 8216    
+CHK0 8217    
+CHK0 8218    
+CHK1 8219    
+CHK0 8220    
+CHK0 8221    
+CHK1 8222    
+CHK1 8223    
+CHK1 8224    
+CHK0 8225    
+CHK0 8226    
+CHK1 8227    
+CHK0 8228    
+CHK0 8229    
+CHK0 8230    
+CHK1 8231    
+CHK0 8232    
+CHK0 8233    
+CHK0 8234    
+CHK1 8235    
+CHK0 8236    
+CHK1 8237    
+CHK1 8238    
+CHK0 8239    
+CHK0 8240    
+CHK1 8241    
+CHK1 8242    
+CHK0 8243    
+CHK0 8244    
+CHK1 8245    
+CHK1 8246    
+CHK1 8247    
+CHK1 8248    
+CHK0 8301    
+CHK0 8302    
+CHK0 8303    
+CHK0 8304    
+CHK0 8305    
+CHK1 8306    
+CHK0 8307    

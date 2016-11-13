@@ -139,7 +139,7 @@ object Form1: TForm1
   end
   object Button5: TButton
     Left = 24
-    Top = 415
+    Top = 383
     Width = 75
     Height = 25
     Caption = 'Start FO'
@@ -193,7 +193,7 @@ object Form1: TForm1
   end
   object Button8: TButton
     Left = 24
-    Top = 446
+    Top = 414
     Width = 75
     Height = 25
     Caption = 'ENQ'
@@ -208,7 +208,7 @@ object Form1: TForm1
   end
   object Button9: TButton
     Left = 105
-    Top = 446
+    Top = 445
     Width = 75
     Height = 25
     Caption = 'areyuthere'
@@ -260,7 +260,7 @@ object Form1: TForm1
   end
   object Button11: TButton
     Left = 24
-    Top = 488
+    Top = 444
     Width = 75
     Height = 25
     Caption = 'SYNC'
@@ -282,7 +282,7 @@ object Form1: TForm1
     Top = 523
     Width = 75
     Height = 25
-    Caption = 'Button12'
+    Caption = 'Test CI'
     TabOrder = 21
     OnClick = Button12Click
   end
@@ -294,6 +294,21 @@ object Form1: TForm1
     ScrollBars = ssBoth
     TabOrder = 22
     OnChange = Memo2Change
+  end
+  object Button13: TButton
+    Left = 105
+    Top = 383
+    Width = 75
+    Height = 25
+    Caption = 'STOP FO'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 23
+    OnClick = Button13Click
   end
   object Timer1: TTimer
     Enabled = False
@@ -372,7 +387,7 @@ object Form1: TForm1
     Top = 488
   end
   object Timer3: TTimer
-    Interval = 2000
+    Interval = 300000
     OnTimer = Timer3Timer
     Left = 568
     Top = 224

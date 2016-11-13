@@ -1,0 +1,26 @@
+
+            case StrToInt(call['type']) of
+              1 : begin
+                    sthk1 := 'V';
+                    sthk2 := 'C';
+                    sthk3 := 'N';
+                  end;
+
+              2 : begin
+                    sthk1 := 'O';
+                    sthk2 := 'C';
+                    sthk3 := 'N';
+                  end;
+
+              3 : begin
+                    sthk1 := 'V';
+                    sthk2 := 'C';
+                    sthk3 := 'I';
+                  end;
+
+              4 : begin
+                    sthk1 := 'O';
+                    sthk2 := 'C';
+                    sthk3 := 'I';
+                  end;
+            end;

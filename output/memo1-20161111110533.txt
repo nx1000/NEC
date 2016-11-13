@@ -1,0 +1,50 @@
+SMDR Port Connecting....
+SMDR Port Connected
+PMS Sent 12 RQINZ     
+PMS Sent 12 RQINZ     
+PABX Port connected
+sending at 11:06:07 AM
+11:06:07 AM PABX answer :LINETEST  
+11:06:07 AMPMS Receiving LINETEST and Sending ACK
+11:06:07 AM PABX answer :RQINZ     
+PMS Sent 12 RQINZ     
+11:06:11 AM PABX answer :
+11:06:11 AMACK received
+11:06:21 AM PABX answer :AREYUTHERE
+11:06:21 AMPMS Receiving AREYUTHERE and Sending ACK
+11:06:21 AM PABX answer :RQINZ     
+11:06:29 AM PABX answer :
+11:06:29 AMACK received
+11:06:39 AM PABX answer :AREYUTHERE
+11:06:39 AMPMS Receiving AREYUTHERE and Sending ACK
+11:06:39 AM PABX answer :RQINZ     
+11:06:50 AM PABX answer :AREYUTHERE
+11:06:50 AMPMS Receiving AREYUTHERE and Sending ACK
+11:06:50 AM PABX answer :RQINZ     
+11:07:00 AM PABX answer :AREYUTHERE
+11:07:00 AMPMS Receiving AREYUTHERE and Sending ACK
+11:07:00 AM PABX answer :RQINZ     
+11:07:10 AM PABX answer :AREYUTHERE
+11:07:10 AMPMS Receiving AREYUTHERE and Sending ACK
+11:07:10 AM PABX answer :RQINZ     
+11:07:20 AM PABX answer :AREYUTHERE
+11:07:20 AMPMS Receiving AREYUTHERE and Sending ACK
+11:07:20 AM PABX answer :RQINZ     
+PMS Sent 12 RQINZ     
+11:07:25 AM PABX answer :
+11:07:25 AMACK received
+11:07:35 AM PABX answer :AREYUTHERE
+11:07:35 AMPMS Receiving AREYUTHERE and Sending ACK
+11:07:35 AM PABX answer :RQINZ     
+11:07:45 AM PABX answer :AREYUTHERE
+11:07:45 AMPMS Receiving AREYUTHERE and Sending ACK
+11:07:45 AM PABX answer :RQINZ     
+PMS Sent 12 RQINZ     
+11:07:52 AM PABX answer :
+11:07:52 AMACK received
+11:08:02 AM PABX answer :AREYUTHERE
+11:08:02 AMPMS Receiving AREYUTHERE and Sending ACK
+11:08:02 AM PABX answer :RQINZ     
+11:08:12 AM PABX answer :AREYUTHERE
+11:08:12 AMPMS Receiving AREYUTHERE and Sending ACK
+11:08:12 AM PABX answer :RQINZ     

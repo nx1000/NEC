@@ -1,0 +1,8 @@
+PABX Port connected
+sending at 11:42:00 AM
+11:42:00 AM PABX answer :LINETEST  
+11:42:00 AMPMS Receiving LINETEST and Sending ACK
+11:42:00 AM PABX answer :RQINZ     
+11:42:10 AM PABX answer :AREYUTHERE
+11:42:10 AMPMS Receiving AREYUTHERE and Sending ACK
+11:42:10 AM PABX answer :RQINZ     

@@ -1,0 +1,999 @@
+SMDR Port Connecting....
+SMDR Port Connected
+GRS       
+Not connected
+PMS Sent 15 RST3 8438    
+END       
+PABX Port connected
+sending at 9:48:57 AM
+9:48:57 AM PABX answer :LINETEST  
+9:48:57 AMPMS Receiving LINETEST and Sending ACK
+GRS       
+CHK0 8    Form1               
+PMS Sent 15 RST3 8       
+END       
+9:48:58 AM PABX answer :RQINZ     
+GRS       
+PMS Sent 35 EDT1 8325    Form1               
+PMS Sent 15 RST3 8325    
+END       
+9:48:59 AM PABX answer :
+GRS       
+CHK0 8326    Form1               
+PMS Sent 15 RST3 8326    
+END       
+9:49:01 AM PABX answer :
+GRS       
+CHK1 8    SUPRIANTO SAID/ LALU
+PMS Sent 15 RST3 8       
+END       
+9:49:02 AM PABX answer :
+GRS       
+CHK1 8326    IVONNE D/ ANISAH J  
+PMS Sent 15 RST3 8326    
+END       
+9:49:03 AM PABX answer :
+GRS       
+CHK1 8    MTQ PAPUA           
+PMS Sent 15 RST3 8       
+END       
+9:49:04 AM PABX answer :
+GRS       
+CHK1 8438    YENNIE              
+PMS Sent 15 RST3 8438    
+END       
+9:49:05 AM PABX answer :
+GRS       
+CHK1 8411    HARDI               
+PMS Sent 15 RST3 8411    
+END       
+9:49:06 AM PABX answer :
+9:49:16 AM PABX answer :AREYUTHERE
+9:49:16 AMPMS Receiving AREYUTHERE and Sending ACK
+9:49:16 AM PABX answer :RQINZ     
+9:49:26 AM PABX answer :AREYUTHERE
+9:49:26 AMPMS Receiving AREYUTHERE and Sending ACK
+9:49:26 AM PABX answer :RQINZ     
+9:49:36 AM PABX answer :AREYUTHERE
+9:49:36 AMPMS Receiving AREYUTHERE and Sending ACK
+9:49:36 AM PABX answer :RQINZ     
+9:49:46 AM PABX answer :AREYUTHERE
+9:49:46 AMPMS Receiving AREYUTHERE and Sending ACK
+9:49:46 AM PABX answer :RQINZ     
+9:49:56 AM PABX answer :AREYUTHERE
+9:49:56 AMPMS Receiving AREYUTHERE and Sending ACK
+9:49:56 AM PABX answer :RQINZ     
+9:50:06 AM PABX answer :AREYUTHERE
+9:50:06 AMPMS Receiving AREYUTHERE and Sending ACK
+9:50:06 AM PABX answer :RQINZ     
+9:50:17 AM PABX answer :AREYUTHERE
+9:50:17 AMPMS Receiving AREYUTHERE and Sending ACK
+9:50:17 AM PABX answer :RQINZ     
+9:50:27 AM PABX answer :AREYUTHERE
+9:50:27 AMPMS Receiving AREYUTHERE and Sending ACK
+9:50:27 AM PABX answer :RQINZ     
+9:50:37 AM PABX answer :AREYUTHERE
+9:50:37 AMPMS Receiving AREYUTHERE and Sending ACK
+9:50:37 AM PABX answer :RQINZ     
+9:50:47 AM PABX answer :AREYUTHERE
+9:50:47 AMPMS Receiving AREYUTHERE and Sending ACK
+9:50:47 AM PABX answer :RQINZ     
+9:50:57 AM PABX answer :AREYUTHERE
+9:50:57 AMPMS Receiving AREYUTHERE and Sending ACK
+9:50:57 AM PABX answer :RQINZ     
+GRS       
+CHK0 8201    
+CHK0 8202    
+CHK0 8203    
+CHK0 8204    
+CHK0 8205    
+CHK0 8206    
+CHK1 8207    
+CHK0 8208    
+CHK1 8209    
+CHK0 8210    
+CHK1 8211    
+CHK0 8212    
+CHK1 8213    
+CHK1 8214    
+CHK1 8215    
+CHK0 8216    
+CHK1 8217    
+CHK1 8218    
+CHK1 8219    
+CHK1 8220    
+CHK1 8221    
+CHK1 8222    
+CHK1 8223    
+CHK1 8224    
+CHK1 8225    
+CHK1 8226    
+CHK1 8227    
+CHK0 8228    
+CHK1 8229    
+CHK1 8230    
+CHK1 8231    
+CHK0 8232    
+CHK0 8233    
+CHK1 8234    
+CHK1 8235    
+CHK1 8236    
+CHK0 8237    
+CHK0 8238    
+CHK0 8239    
+CHK1 8240    
+CHK0 8241    
+CHK0 8242    
+CHK1 8243    
+CHK1 8244    
+CHK0 8245    
+CHK0 8246    
+CHK0 8247    
+CHK0 8248    
+CHK0 8301    
+CHK0 8302    
+CHK0 8303    
+CHK0 8304    
+CHK0 8305    
+CHK1 8306    
+CHK0 8307    
+CHK0 8308    
+CHK0 8309    
+CHK1 8310    
+CHK0 8311    
+CHK1 8312    
+CHK0 8313    
+CHK1 8314    
+CHK0 8315    
+CHK0 8316    
+CHK0 8317    
+CHK0 8318    
+CHK1 8319    
+CHK1 8320    
+CHK1 8321    
+CHK0 8322    
+CHK0 8323    
+CHK0 8324    
+CHK1 8325    
+CHK1 8326    
+CHK0 8327    
+CHK0 8328    
+CHK1 8329    
+CHK0 8330    
+CHK0 8331    
+CHK1 8332    
+CHK1 8333    
+CHK0 8334    
+CHK1 8335    
+CHK0 8336    
+CHK0 8337    
+CHK0 8338    
+CHK0 8339    
+CHK1 8340    
+CHK0 8341    
+CHK0 8342    
+CHK0 8343    
+CHK0 8344    
+CHK1 8345    
+CHK0 8346    
+CHK0 8347    
+CHK0 8348    
+CHK0 8401    
+CHK1 8402    
+CHK1 8403    
+CHK0 8404    
+CHK1 8405    
+CHK1 8406    
+CHK1 8407    
+CHK0 8409    
+CHK1 8411    
+CHK0 8412    
+CHK1 8413    
+CHK1 8414    
+CHK0 8415    
+CHK0 8416    
+CHK0 8417    
+CHK1 8418    
+CHK1 8419    
+CHK1 8420    
+CHK0 8421    
+CHK0 8422    
+CHK1 8423    
+CHK0 8424    
+CHK0 8425    
+CHK0 8426    
+CHK0 8427    
+CHK0 8428    
+CHK0 8429    
+CHK0 8430    
+CHK1 8431    
+CHK1 8432    
+CHK1 8433    
+CHK1 8434    
+CHK1 8435    
+CHK0 8436    
+CHK1 8437    
+CHK1 8438    
+CHK1 8439    
+CHK1 8440    
+CHK0 8441    
+CHK0 8442    
+CHK0 8443    
+CHK0 8444    
+CHK0 8445    
+CHK0 8446    
+CHK0 8447    
+CHK0 8448    
+END       
+9:51:18 AM PABX answer :
+9:51:28 AM PABX answer :AREYUTHERE
+9:51:28 AMPMS Receiving AREYUTHERE and Sending ACK
+9:51:28 AM PABX answer :RQINZ     
+9:51:38 AM PABX answer :AREYUTHERE
+9:51:38 AMPMS Receiving AREYUTHERE and Sending ACK
+9:51:38 AM PABX answer :RQINZ     
+9:51:48 AM PABX answer :AREYUTHERE
+9:51:48 AMPMS Receiving AREYUTHERE and Sending ACK
+9:51:48 AM PABX answer :RQINZ     
+9:51:58 AM PABX answer :AREYUTHERE
+9:51:58 AMPMS Receiving AREYUTHERE and Sending ACK
+9:51:58 AM PABX answer :RQINZ     
+9:52:08 AM PABX answer :AREYUTHERE
+9:52:08 AMPMS Receiving AREYUTHERE and Sending ACK
+9:52:08 AM PABX answer :RQINZ     
+9:52:18 AM PABX answer :AREYUTHERE
+9:52:18 AMPMS Receiving AREYUTHERE and Sending ACK
+9:52:18 AM PABX answer :RQINZ     
+9:52:28 AM PABX answer :AREYUTHERE
+9:52:28 AMPMS Receiving AREYUTHERE and Sending ACK
+9:52:28 AM PABX answer :RQINZ     
+9:52:39 AM PABX answer :AREYUTHERE
+9:52:39 AMPMS Receiving AREYUTHERE and Sending ACK
+9:52:39 AM PABX answer :RQINZ     
+9:52:49 AM PABX answer :AREYUTHERE
+9:52:49 AMPMS Receiving AREYUTHERE and Sending ACK
+9:52:49 AM PABX answer :RQINZ     
+9:52:59 AM PABX answer :AREYUTHERE
+9:52:59 AMPMS Receiving AREYUTHERE and Sending ACK
+9:52:59 AM PABX answer :RQINZ     
+9:53:09 AM PABX answer :AREYUTHERE
+9:53:09 AMPMS Receiving AREYUTHERE and Sending ACK
+9:53:09 AM PABX answer :RQINZ     
+9:53:19 AM PABX answer :AREYUTHERE
+9:53:19 AMPMS Receiving AREYUTHERE and Sending ACK
+9:53:19 AM PABX answer :RQINZ     
+9:53:29 AM PABX answer :AREYUTHERE
+9:53:29 AMPMS Receiving AREYUTHERE and Sending ACK
+9:53:29 AM PABX answer :RQINZ     
+9:53:39 AM PABX answer :AREYUTHERE
+9:53:39 AMPMS Receiving AREYUTHERE and Sending ACK
+9:53:39 AM PABX answer :RQINZ     
+9:53:49 AM PABX answer :AREYUTHERE
+9:53:49 AMPMS Receiving AREYUTHERE and Sending ACK
+9:53:49 AM PABX answer :RQINZ     
+9:53:59 AM PABX answer :AREYUTHERE
+9:53:59 AMPMS Receiving AREYUTHERE and Sending ACK
+9:53:59 AM PABX answer :RQINZ     
+9:54:09 AM PABX answer :AREYUTHERE
+9:54:09 AMPMS Receiving AREYUTHERE and Sending ACK
+9:54:09 AM PABX answer :RQINZ     
+9:54:20 AM PABX answer :AREYUTHERE
+9:54:20 AMPMS Receiving AREYUTHERE and Sending ACK
+9:54:20 AM PABX answer :RQINZ     
+9:54:30 AM PABX answer :AREYUTHERE
+9:54:30 AMPMS Receiving AREYUTHERE and Sending ACK
+9:54:30 AM PABX answer :RQINZ     
+9:54:40 AM PABX answer :AREYUTHERE
+9:54:40 AMPMS Receiving AREYUTHERE and Sending ACK
+9:54:40 AM PABX answer :RQINZ     
+9:54:50 AM PABX answer :AREYUTHERE
+9:54:50 AMPMS Receiving AREYUTHERE and Sending ACK
+9:54:50 AM PABX answer :RQINZ     
+9:55:00 AM PABX answer :AREYUTHERE
+9:55:00 AMPMS Receiving AREYUTHERE and Sending ACK
+9:55:00 AM PABX answer :RQINZ     
+9:55:10 AM PABX answer :AREYUTHERE
+9:55:10 AMPMS Receiving AREYUTHERE and Sending ACK
+9:55:10 AM PABX answer :RQINZ     
+9:55:20 AM PABX answer :AREYUTHERE
+9:55:20 AMPMS Receiving AREYUTHERE and Sending ACK
+9:55:20 AM PABX answer :RQINZ     
+9:55:30 AM PABX answer :AREYUTHERE
+9:55:30 AMPMS Receiving AREYUTHERE and Sending ACK
+9:55:30 AM PABX answer :RQINZ     
+9:55:40 AM PABX answer :AREYUTHERE
+9:55:40 AMPMS Receiving AREYUTHERE and Sending ACK
+9:55:40 AM PABX answer :RQINZ     
+9:55:50 AM PABX answer :AREYUTHERE
+9:55:50 AMPMS Receiving AREYUTHERE and Sending ACK
+9:55:50 AM PABX answer :RQINZ     
+9:56:01 AM PABX answer :AREYUTHERE
+9:56:01 AMPMS Receiving AREYUTHERE and Sending ACK
+9:56:01 AM PABX answer :RQINZ     
+9:56:11 AM PABX answer :AREYUTHERE
+9:56:11 AMPMS Receiving AREYUTHERE and Sending ACK
+9:56:11 AM PABX answer :RQINZ     
+9:56:21 AM PABX answer :AREYUTHERE
+9:56:21 AMPMS Receiving AREYUTHERE and Sending ACK
+9:56:21 AM PABX answer :RQINZ     
+9:56:31 AM PABX answer :AREYUTHERE
+9:56:31 AMPMS Receiving AREYUTHERE and Sending ACK
+9:56:31 AM PABX answer :RQINZ     
+9:56:41 AM PABX answer :AREYUTHERE
+9:56:41 AMPMS Receiving AREYUTHERE and Sending ACK
+9:56:41 AM PABX answer :RQINZ     
+9:56:51 AM PABX answer :AREYUTHERE
+9:56:51 AMPMS Receiving AREYUTHERE and Sending ACK
+9:56:51 AM PABX answer :RQINZ     
+9:57:01 AM PABX answer :AREYUTHERE
+9:57:01 AMPMS Receiving AREYUTHERE and Sending ACK
+9:57:01 AM PABX answer :RQINZ     
+9:57:11 AM PABX answer :AREYUTHERE
+9:57:11 AMPMS Receiving AREYUTHERE and Sending ACK
+9:57:11 AM PABX answer :RQINZ     
+9:57:21 AM PABX answer :AREYUTHERE
+9:57:21 AMPMS Receiving AREYUTHERE and Sending ACK
+9:57:21 AM PABX answer :RQINZ     
+9:57:32 AM PABX answer :AREYUTHERE
+9:57:32 AMPMS Receiving AREYUTHERE and Sending ACK
+9:57:32 AM PABX answer :RQINZ     
+9:57:42 AM PABX answer :AREYUTHERE
+9:57:42 AMPMS Receiving AREYUTHERE and Sending ACK
+9:57:42 AM PABX answer :RQINZ     
+9:57:52 AM PABX answer :AREYUTHERE
+9:57:52 AMPMS Receiving AREYUTHERE and Sending ACK
+9:57:52 AM PABX answer :RQINZ     
+9:58:02 AM PABX answer :AREYUTHERE
+9:58:02 AMPMS Receiving AREYUTHERE and Sending ACK
+9:58:02 AM PABX answer :RQINZ     
+9:58:12 AM PABX answer :AREYUTHERE
+9:58:12 AMPMS Receiving AREYUTHERE and Sending ACK
+9:58:12 AM PABX answer :RQINZ     
+9:58:22 AM PABX answer :AREYUTHERE
+9:58:22 AMPMS Receiving AREYUTHERE and Sending ACK
+9:58:22 AM PABX answer :RQINZ     
+9:58:32 AM PABX answer :AREYUTHERE
+9:58:32 AMPMS Receiving AREYUTHERE and Sending ACK
+9:58:32 AM PABX answer :RQINZ     
+9:58:42 AM PABX answer :AREYUTHERE
+9:58:42 AMPMS Receiving AREYUTHERE and Sending ACK
+9:58:42 AM PABX answer :RQINZ     
+9:58:52 AM PABX answer :AREYUTHERE
+9:58:52 AMPMS Receiving AREYUTHERE and Sending ACK
+9:58:52 AM PABX answer :RQINZ     
+9:59:02 AM PABX answer :AREYUTHERE
+9:59:02 AMPMS Receiving AREYUTHERE and Sending ACK
+9:59:02 AM PABX answer :RQINZ     
+9:59:13 AM PABX answer :AREYUTHERE
+9:59:13 AMPMS Receiving AREYUTHERE and Sending ACK
+9:59:13 AM PABX answer :RQINZ     
+9:59:23 AM PABX answer :AREYUTHERE
+9:59:23 AMPMS Receiving AREYUTHERE and Sending ACK
+9:59:23 AM PABX answer :RQINZ     
+9:59:33 AM PABX answer :AREYUTHERE
+9:59:33 AMPMS Receiving AREYUTHERE and Sending ACK
+9:59:33 AM PABX answer :RQINZ     
+9:59:43 AM PABX answer :AREYUTHERE
+9:59:43 AMPMS Receiving AREYUTHERE and Sending ACK
+9:59:43 AM PABX answer :RQINZ     
+9:59:53 AM PABX answer :AREYUTHERE
+9:59:53 AMPMS Receiving AREYUTHERE and Sending ACK
+9:59:53 AM PABX answer :RQINZ     
+10:00:03 AM PABX answer :AREYUTHERE
+10:00:03 AMPMS Receiving AREYUTHERE and Sending ACK
+10:00:03 AM PABX answer :RQINZ     
+10:00:13 AM PABX answer :AREYUTHERE
+10:00:13 AMPMS Receiving AREYUTHERE and Sending ACK
+10:00:13 AM PABX answer :RQINZ     
+10:00:23 AM PABX answer :AREYUTHERE
+10:00:23 AMPMS Receiving AREYUTHERE and Sending ACK
+10:00:23 AM PABX answer :RQINZ     
+10:00:33 AM PABX answer :AREYUTHERE
+10:00:33 AMPMS Receiving AREYUTHERE and Sending ACK
+10:00:33 AM PABX answer :RQINZ     
+10:00:43 AM PABX answer :AREYUTHERE
+10:00:43 AMPMS Receiving AREYUTHERE and Sending ACK
+10:00:43 AM PABX answer :RQINZ     
+10:00:54 AM PABX answer :AREYUTHERE
+10:00:54 AMPMS Receiving AREYUTHERE and Sending ACK
+10:00:54 AM PABX answer :RQINZ     
+10:01:04 AM PABX answer :AREYUTHERE
+10:01:04 AMPMS Receiving AREYUTHERE and Sending ACK
+10:01:04 AM PABX answer :RQINZ     
+10:01:14 AM PABX answer :AREYUTHERE
+10:01:14 AMPMS Receiving AREYUTHERE and Sending ACK
+10:01:14 AM PABX answer :RQINZ     
+10:01:24 AM PABX answer :AREYUTHERE
+10:01:24 AMPMS Receiving AREYUTHERE and Sending ACK
+10:01:24 AM PABX answer :RQINZ     
+10:01:34 AM PABX answer :AREYUTHERE
+10:01:34 AMPMS Receiving AREYUTHERE and Sending ACK
+10:01:34 AM PABX answer :RQINZ     
+10:01:44 AM PABX answer :AREYUTHERE
+10:01:44 AMPMS Receiving AREYUTHERE and Sending ACK
+10:01:44 AM PABX answer :RQINZ     
+10:01:54 AM PABX answer :AREYUTHERE
+10:01:54 AMPMS Receiving AREYUTHERE and Sending ACK
+10:01:54 AM PABX answer :RQINZ     
+10:02:04 AM PABX answer :AREYUTHERE
+10:02:04 AMPMS Receiving AREYUTHERE and Sending ACK
+10:02:04 AM PABX answer :RQINZ     
+10:02:14 AM PABX answer :AREYUTHERE
+10:02:14 AMPMS Receiving AREYUTHERE and Sending ACK
+10:02:14 AM PABX answer :RQINZ     
+10:02:24 AM PABX answer :AREYUTHERE
+10:02:24 AMPMS Receiving AREYUTHERE and Sending ACK
+10:02:25 AM PABX answer :RQINZ     
+10:02:35 AM PABX answer :AREYUTHERE
+10:02:35 AMPMS Receiving AREYUTHERE and Sending ACK
+10:02:35 AM PABX answer :RQINZ     
+10:02:45 AM PABX answer :AREYUTHERE
+10:02:45 AMPMS Receiving AREYUTHERE and Sending ACK
+10:02:45 AM PABX answer :RQINZ     
+10:02:55 AM PABX answer :AREYUTHERE
+10:02:55 AMPMS Receiving AREYUTHERE and Sending ACK
+10:02:55 AM PABX answer :RQINZ     
+10:03:05 AM PABX answer :AREYUTHERE
+10:03:05 AMPMS Receiving AREYUTHERE and Sending ACK
+10:03:05 AM PABX answer :RQINZ     
+10:03:15 AM PABX answer :AREYUTHERE
+10:03:15 AMPMS Receiving AREYUTHERE and Sending ACK
+10:03:15 AM PABX answer :RQINZ     
+10:03:25 AM PABX answer :AREYUTHERE
+10:03:25 AMPMS Receiving AREYUTHERE and Sending ACK
+10:03:25 AM PABX answer :RQINZ     
+10:03:35 AM PABX answer :AREYUTHERE
+10:03:35 AMPMS Receiving AREYUTHERE and Sending ACK
+10:03:35 AM PABX answer :RQINZ     
+10:03:45 AM PABX answer :AREYUTHERE
+10:03:45 AMPMS Receiving AREYUTHERE and Sending ACK
+10:03:45 AM PABX answer :RQINZ     
+10:03:55 AM PABX answer :AREYUTHERE
+10:03:55 AMPMS Receiving AREYUTHERE and Sending ACK
+10:03:55 AM PABX answer :RQINZ     
+10:04:06 AM PABX answer :AREYUTHERE
+10:04:06 AMPMS Receiving AREYUTHERE and Sending ACK
+10:04:06 AM PABX answer :RQINZ     
+10:04:16 AM PABX answer :AREYUTHERE
+10:04:16 AMPMS Receiving AREYUTHERE and Sending ACK
+10:04:16 AM PABX answer :RQINZ     
+10:04:26 AM PABX answer :AREYUTHERE
+10:04:26 AMPMS Receiving AREYUTHERE and Sending ACK
+10:04:26 AM PABX answer :RQINZ     
+10:04:36 AM PABX answer :AREYUTHERE
+10:04:36 AMPMS Receiving AREYUTHERE and Sending ACK
+10:04:36 AM PABX answer :RQINZ     
+10:04:46 AM PABX answer :AREYUTHERE
+10:04:46 AMPMS Receiving AREYUTHERE and Sending ACK
+10:04:46 AM PABX answer :RQINZ     
+10:04:56 AM PABX answer :AREYUTHERE
+10:04:56 AMPMS Receiving AREYUTHERE and Sending ACK
+10:04:56 AM PABX answer :RQINZ     
+10:05:06 AM PABX answer :AREYUTHERE
+10:05:06 AMPMS Receiving AREYUTHERE and Sending ACK
+10:05:06 AM PABX answer :RQINZ     
+10:05:16 AM PABX answer :AREYUTHERE
+10:05:16 AMPMS Receiving AREYUTHERE and Sending ACK
+10:05:16 AM PABX answer :RQINZ     
+10:05:26 AM PABX answer :AREYUTHERE
+10:05:26 AMPMS Receiving AREYUTHERE and Sending ACK
+10:05:26 AM PABX answer :RQINZ     
+10:05:37 AM PABX answer :AREYUTHERE
+10:05:37 AMPMS Receiving AREYUTHERE and Sending ACK
+10:05:37 AM PABX answer :RQINZ     
+10:05:47 AM PABX answer :AREYUTHERE
+10:05:47 AMPMS Receiving AREYUTHERE and Sending ACK
+10:05:47 AM PABX answer :RQINZ     
+10:05:57 AM PABX answer :AREYUTHERE
+10:05:57 AMPMS Receiving AREYUTHERE and Sending ACK
+10:05:57 AM PABX answer :RQINZ     
+10:06:07 AM PABX answer :AREYUTHERE
+10:06:07 AMPMS Receiving AREYUTHERE and Sending ACK
+10:06:07 AM PABX answer :RQINZ     
+10:06:17 AM PABX answer :AREYUTHERE
+10:06:17 AMPMS Receiving AREYUTHERE and Sending ACK
+10:06:17 AM PABX answer :RQINZ     
+10:06:27 AM PABX answer :AREYUTHERE
+10:06:27 AMPMS Receiving AREYUTHERE and Sending ACK
+10:06:27 AM PABX answer :RQINZ     
+10:06:37 AM PABX answer :AREYUTHERE
+10:06:37 AMPMS Receiving AREYUTHERE and Sending ACK
+10:06:37 AM PABX answer :RQINZ     
+10:06:47 AM PABX answer :AREYUTHERE
+10:06:47 AMPMS Receiving AREYUTHERE and Sending ACK
+10:06:47 AM PABX answer :RQINZ     
+10:06:57 AM PABX answer :AREYUTHERE
+10:06:57 AMPMS Receiving AREYUTHERE and Sending ACK
+10:06:57 AM PABX answer :RQINZ     
+10:07:07 AM PABX answer :AREYUTHERE
+10:07:07 AMPMS Receiving AREYUTHERE and Sending ACK
+10:07:07 AM PABX answer :RQINZ     
+10:07:18 AM PABX answer :AREYUTHERE
+10:07:18 AMPMS Receiving AREYUTHERE and Sending ACK
+10:07:18 AM PABX answer :RQINZ     
+10:07:28 AM PABX answer :AREYUTHERE
+10:07:28 AMPMS Receiving AREYUTHERE and Sending ACK
+10:07:28 AM PABX answer :RQINZ     
+10:07:38 AM PABX answer :AREYUTHERE
+10:07:38 AMPMS Receiving AREYUTHERE and Sending ACK
+10:07:38 AM PABX answer :RQINZ     
+10:07:48 AM PABX answer :AREYUTHERE
+10:07:48 AMPMS Receiving AREYUTHERE and Sending ACK
+10:07:48 AM PABX answer :RQINZ     
+10:07:58 AM PABX answer :AREYUTHERE
+10:07:58 AMPMS Receiving AREYUTHERE and Sending ACK
+10:07:58 AM PABX answer :RQINZ     
+10:08:08 AM PABX answer :AREYUTHERE
+10:08:08 AMPMS Receiving AREYUTHERE and Sending ACK
+10:08:08 AM PABX answer :RQINZ     
+10:08:18 AM PABX answer :AREYUTHERE
+10:08:18 AMPMS Receiving AREYUTHERE and Sending ACK
+10:08:18 AM PABX answer :RQINZ     
+10:08:28 AM PABX answer :AREYUTHERE
+10:08:28 AMPMS Receiving AREYUTHERE and Sending ACK
+10:08:28 AM PABX answer :RQINZ     
+10:08:38 AM PABX answer :AREYUTHERE
+10:08:38 AMPMS Receiving AREYUTHERE and Sending ACK
+10:08:38 AM PABX answer :RQINZ     
+10:08:49 AM PABX answer :AREYUTHERE
+10:08:49 AMPMS Receiving AREYUTHERE and Sending ACK
+10:08:49 AM PABX answer :RQINZ     
+10:08:59 AM PABX answer :AREYUTHERE
+10:08:59 AMPMS Receiving AREYUTHERE and Sending ACK
+10:08:59 AM PABX answer :RQINZ     
+10:09:09 AM PABX answer :AREYUTHERE
+10:09:09 AMPMS Receiving AREYUTHERE and Sending ACK
+10:09:09 AM PABX answer :RQINZ     
+10:09:19 AM PABX answer :AREYUTHERE
+10:09:19 AMPMS Receiving AREYUTHERE and Sending ACK
+10:09:19 AM PABX answer :RQINZ     
+10:09:29 AM PABX answer :AREYUTHERE
+10:09:29 AMPMS Receiving AREYUTHERE and Sending ACK
+10:09:29 AM PABX answer :RQINZ     
+10:09:39 AM PABX answer :AREYUTHERE
+10:09:39 AMPMS Receiving AREYUTHERE and Sending ACK
+10:09:39 AM PABX answer :RQINZ     
+10:09:49 AM PABX answer :AREYUTHERE
+10:09:49 AMPMS Receiving AREYUTHERE and Sending ACK
+10:09:49 AM PABX answer :RQINZ     
+10:09:59 AM PABX answer :AREYUTHERE
+10:09:59 AMPMS Receiving AREYUTHERE and Sending ACK
+10:09:59 AM PABX answer :RQINZ     
+10:10:10 AM PABX answer :AREYUTHERE
+10:10:10 AMPMS Receiving AREYUTHERE and Sending ACK
+10:10:10 AM PABX answer :RQINZ     
+10:10:21 AM PABX answer :AREYUTHERE
+10:10:21 AMPMS Receiving AREYUTHERE and Sending ACK
+10:10:21 AM PABX answer :RQINZ     
+10:10:31 AM PABX answer :AREYUTHERE
+10:10:31 AMPMS Receiving AREYUTHERE and Sending ACK
+10:10:31 AM PABX answer :RQINZ     
+10:10:41 AM PABX answer :AREYUTHERE
+10:10:41 AMPMS Receiving AREYUTHERE and Sending ACK
+10:10:41 AM PABX answer :RQINZ     
+10:10:51 AM PABX answer :AREYUTHERE
+10:10:51 AMPMS Receiving AREYUTHERE and Sending ACK
+10:10:51 AM PABX answer :RQINZ     
+10:11:01 AM PABX answer :AREYUTHERE
+10:11:01 AMPMS Receiving AREYUTHERE and Sending ACK
+10:11:01 AM PABX answer :RQINZ     
+10:11:11 AM PABX answer :AREYUTHERE
+10:11:11 AMPMS Receiving AREYUTHERE and Sending ACK
+10:11:11 AM PABX answer :RQINZ     
+10:11:21 AM PABX answer :AREYUTHERE
+10:11:21 AMPMS Receiving AREYUTHERE and Sending ACK
+10:11:21 AM PABX answer :RQINZ     
+10:11:31 AM PABX answer :AREYUTHERE
+10:11:31 AMPMS Receiving AREYUTHERE and Sending ACK
+10:11:31 AM PABX answer :RQINZ     
+10:11:41 AM PABX answer :AREYUTHERE
+10:11:41 AMPMS Receiving AREYUTHERE and Sending ACK
+10:11:41 AM PABX answer :RQINZ     
+10:11:51 AM PABX answer :AREYUTHERE
+10:11:51 AMPMS Receiving AREYUTHERE and Sending ACK
+10:11:51 AM PABX answer :RQINZ     
+10:12:02 AM PABX answer :AREYUTHERE
+10:12:02 AMPMS Receiving AREYUTHERE and Sending ACK
+10:12:02 AM PABX answer :RQINZ     
+10:12:12 AM PABX answer :AREYUTHERE
+10:12:12 AMPMS Receiving AREYUTHERE and Sending ACK
+10:12:12 AM PABX answer :RQINZ     
+10:12:22 AM PABX answer :AREYUTHERE
+10:12:22 AMPMS Receiving AREYUTHERE and Sending ACK
+10:12:22 AM PABX answer :RQINZ     
+10:12:32 AM PABX answer :AREYUTHERE
+10:12:32 AMPMS Receiving AREYUTHERE and Sending ACK
+10:12:32 AM PABX answer :RQINZ     
+10:12:42 AM PABX answer :AREYUTHERE
+10:12:42 AMPMS Receiving AREYUTHERE and Sending ACK
+10:12:42 AM PABX answer :RQINZ     
+10:12:52 AM PABX answer :AREYUTHERE
+10:12:52 AMPMS Receiving AREYUTHERE and Sending ACK
+10:12:52 AM PABX answer :RQINZ     
+10:13:02 AM PABX answer :AREYUTHERE
+10:13:02 AMPMS Receiving AREYUTHERE and Sending ACK
+10:13:02 AM PABX answer :RQINZ     
+10:13:12 AM PABX answer :AREYUTHERE
+10:13:12 AMPMS Receiving AREYUTHERE and Sending ACK
+10:13:12 AM PABX answer :RQINZ     
+10:13:22 AM PABX answer :AREYUTHERE
+10:13:22 AMPMS Receiving AREYUTHERE and Sending ACK
+10:13:22 AM PABX answer :RQINZ     
+10:13:32 AM PABX answer :AREYUTHERE
+10:13:32 AMPMS Receiving AREYUTHERE and Sending ACK
+10:13:33 AM PABX answer :RQINZ     
+10:13:43 AM PABX answer :AREYUTHERE
+10:13:43 AMPMS Receiving AREYUTHERE and Sending ACK
+10:13:43 AM PABX answer :RQINZ     
+10:13:53 AM PABX answer :AREYUTHERE
+10:13:53 AMPMS Receiving AREYUTHERE and Sending ACK
+10:13:53 AM PABX answer :RQINZ     
+10:14:03 AM PABX answer :AREYUTHERE
+10:14:03 AMPMS Receiving AREYUTHERE and Sending ACK
+10:14:03 AM PABX answer :RQINZ     
+10:14:13 AM PABX answer :AREYUTHERE
+10:14:13 AMPMS Receiving AREYUTHERE and Sending ACK
+10:14:13 AM PABX answer :RQINZ     
+10:14:23 AM PABX answer :AREYUTHERE
+10:14:23 AMPMS Receiving AREYUTHERE and Sending ACK
+10:14:23 AM PABX answer :RQINZ     
+10:14:33 AM PABX answer :AREYUTHERE
+10:14:33 AMPMS Receiving AREYUTHERE and Sending ACK
+10:14:33 AM PABX answer :RQINZ     
+10:14:43 AM PABX answer :AREYUTHERE
+10:14:43 AMPMS Receiving AREYUTHERE and Sending ACK
+10:14:43 AM PABX answer :RQINZ     
+10:14:53 AM PABX answer :AREYUTHERE
+10:14:53 AMPMS Receiving AREYUTHERE and Sending ACK
+10:14:53 AM PABX answer :RQINZ     
+10:15:03 AM PABX answer :AREYUTHERE
+10:15:03 AMPMS Receiving AREYUTHERE and Sending ACK
+10:15:03 AM PABX answer :RQINZ     
+10:15:14 AM PABX answer :AREYUTHERE
+10:15:14 AMPMS Receiving AREYUTHERE and Sending ACK
+10:15:14 AM PABX answer :RQINZ     
+10:15:24 AM PABX answer :AREYUTHERE
+10:15:24 AMPMS Receiving AREYUTHERE and Sending ACK
+10:15:24 AM PABX answer :RQINZ     
+10:15:34 AM PABX answer :AREYUTHERE
+10:15:34 AMPMS Receiving AREYUTHERE and Sending ACK
+10:15:34 AM PABX answer :RQINZ     
+10:15:44 AM PABX answer :AREYUTHERE
+10:15:44 AMPMS Receiving AREYUTHERE and Sending ACK
+10:15:44 AM PABX answer :RQINZ     
+10:15:54 AM PABX answer :AREYUTHERE
+10:15:54 AMPMS Receiving AREYUTHERE and Sending ACK
+10:15:54 AM PABX answer :RQINZ     
+10:16:04 AM PABX answer :AREYUTHERE
+10:16:04 AMPMS Receiving AREYUTHERE and Sending ACK
+10:16:04 AM PABX answer :RQINZ     
+10:16:14 AM PABX answer :AREYUTHERE
+10:16:14 AMPMS Receiving AREYUTHERE and Sending ACK
+10:16:14 AM PABX answer :RQINZ     
+10:16:24 AM PABX answer :AREYUTHERE
+10:16:24 AMPMS Receiving AREYUTHERE and Sending ACK
+10:16:24 AM PABX answer :RQINZ     
+10:16:34 AM PABX answer :AREYUTHERE
+10:16:34 AMPMS Receiving AREYUTHERE and Sending ACK
+10:16:34 AM PABX answer :RQINZ     
+10:16:44 AM PABX answer :AREYUTHERE
+10:16:44 AMPMS Receiving AREYUTHERE and Sending ACK
+10:16:44 AM PABX answer :RQINZ     
+10:16:55 AM PABX answer :AREYUTHERE
+10:16:55 AMPMS Receiving AREYUTHERE and Sending ACK
+10:16:55 AM PABX answer :RQINZ     
+10:17:05 AM PABX answer :AREYUTHERE
+10:17:05 AMPMS Receiving AREYUTHERE and Sending ACK
+10:17:05 AM PABX answer :RQINZ     
+10:17:15 AM PABX answer :AREYUTHERE
+10:17:15 AMPMS Receiving AREYUTHERE and Sending ACK
+10:17:15 AM PABX answer :RQINZ     
+10:17:25 AM PABX answer :AREYUTHERE
+10:17:25 AMPMS Receiving AREYUTHERE and Sending ACK
+10:17:25 AM PABX answer :RQINZ     
+10:17:35 AM PABX answer :AREYUTHERE
+10:17:35 AMPMS Receiving AREYUTHERE and Sending ACK
+10:17:35 AM PABX answer :RQINZ     
+10:17:45 AM PABX answer :AREYUTHERE
+10:17:45 AMPMS Receiving AREYUTHERE and Sending ACK
+10:17:45 AM PABX answer :RQINZ     
+10:17:55 AM PABX answer :AREYUTHERE
+10:17:55 AMPMS Receiving AREYUTHERE and Sending ACK
+10:17:55 AM PABX answer :RQINZ     
+10:18:05 AM PABX answer :AREYUTHERE
+10:18:05 AMPMS Receiving AREYUTHERE and Sending ACK
+10:18:05 AM PABX answer :RQINZ     
+10:18:15 AM PABX answer :AREYUTHERE
+10:18:15 AMPMS Receiving AREYUTHERE and Sending ACK
+10:18:15 AM PABX answer :RQINZ     
+10:18:25 AM PABX answer :AREYUTHERE
+10:18:25 AMPMS Receiving AREYUTHERE and Sending ACK
+10:18:25 AM PABX answer :RQINZ     
+10:18:36 AM PABX answer :AREYUTHERE
+10:18:36 AMPMS Receiving AREYUTHERE and Sending ACK
+10:18:36 AM PABX answer :RQINZ     
+10:18:46 AM PABX answer :AREYUTHERE
+10:18:46 AMPMS Receiving AREYUTHERE and Sending ACK
+10:18:46 AM PABX answer :RQINZ     
+10:18:56 AM PABX answer :AREYUTHERE
+10:18:56 AMPMS Receiving AREYUTHERE and Sending ACK
+10:18:56 AM PABX answer :RQINZ     
+10:19:06 AM PABX answer :AREYUTHERE
+10:19:06 AMPMS Receiving AREYUTHERE and Sending ACK
+10:19:06 AM PABX answer :RQINZ     
+10:19:16 AM PABX answer :AREYUTHERE
+10:19:16 AMPMS Receiving AREYUTHERE and Sending ACK
+10:19:16 AM PABX answer :RQINZ     
+10:19:26 AM PABX answer :AREYUTHERE
+10:19:26 AMPMS Receiving AREYUTHERE and Sending ACK
+10:19:26 AM PABX answer :RQINZ     
+10:19:36 AM PABX answer :AREYUTHERE
+10:19:36 AMPMS Receiving AREYUTHERE and Sending ACK
+10:19:36 AM PABX answer :RQINZ     
+10:19:46 AM PABX answer :AREYUTHERE
+10:19:46 AMPMS Receiving AREYUTHERE and Sending ACK
+10:19:46 AM PABX answer :RQINZ     
+10:19:56 AM PABX answer :AREYUTHERE
+10:19:56 AMPMS Receiving AREYUTHERE and Sending ACK
+10:19:56 AM PABX answer :RQINZ     
+10:20:06 AM PABX answer :AREYUTHERE
+10:20:06 AMPMS Receiving AREYUTHERE and Sending ACK
+10:20:06 AM PABX answer :RQINZ     
+10:20:17 AM PABX answer :AREYUTHERE
+10:20:17 AMPMS Receiving AREYUTHERE and Sending ACK
+10:20:17 AM PABX answer :RQINZ     
+10:20:27 AM PABX answer :AREYUTHERE
+10:20:27 AMPMS Receiving AREYUTHERE and Sending ACK
+10:20:27 AM PABX answer :RQINZ     
+10:20:37 AM PABX answer :AREYUTHERE
+10:20:37 AMPMS Receiving AREYUTHERE and Sending ACK
+10:20:37 AM PABX answer :RQINZ     
+10:20:47 AM PABX answer :AREYUTHERE
+10:20:47 AMPMS Receiving AREYUTHERE and Sending ACK
+10:20:47 AM PABX answer :RQINZ     
+10:20:57 AM PABX answer :AREYUTHERE
+10:20:57 AMPMS Receiving AREYUTHERE and Sending ACK
+10:20:57 AM PABX answer :RQINZ     
+10:21:07 AM PABX answer :AREYUTHERE
+10:21:07 AMPMS Receiving AREYUTHERE and Sending ACK
+10:21:07 AM PABX answer :RQINZ     
+10:21:17 AM PABX answer :AREYUTHERE
+10:21:17 AMPMS Receiving AREYUTHERE and Sending ACK
+10:21:17 AM PABX answer :RQINZ     
+10:21:27 AM PABX answer :AREYUTHERE
+10:21:27 AMPMS Receiving AREYUTHERE and Sending ACK
+10:21:27 AM PABX answer :RQINZ     
+10:21:37 AM PABX answer :AREYUTHERE
+10:21:37 AMPMS Receiving AREYUTHERE and Sending ACK
+10:21:37 AM PABX answer :RQINZ     
+10:21:47 AM PABX answer :AREYUTHERE
+10:21:47 AMPMS Receiving AREYUTHERE and Sending ACK
+10:21:47 AM PABX answer :RQINZ     
+10:21:58 AM PABX answer :AREYUTHERE
+10:21:58 AMPMS Receiving AREYUTHERE and Sending ACK
+10:21:58 AM PABX answer :RQINZ     
+10:22:08 AM PABX answer :AREYUTHERE
+10:22:08 AMPMS Receiving AREYUTHERE and Sending ACK
+10:22:08 AM PABX answer :RQINZ     
+10:22:18 AM PABX answer :AREYUTHERE
+10:22:18 AMPMS Receiving AREYUTHERE and Sending ACK
+10:22:18 AM PABX answer :RQINZ     
+10:22:28 AM PABX answer :AREYUTHERE
+10:22:28 AMPMS Receiving AREYUTHERE and Sending ACK
+10:22:28 AM PABX answer :RQINZ     
+10:22:38 AM PABX answer :AREYUTHERE
+10:22:38 AMPMS Receiving AREYUTHERE and Sending ACK
+10:22:38 AM PABX answer :RQINZ     
+10:22:48 AM PABX answer :AREYUTHERE
+10:22:48 AMPMS Receiving AREYUTHERE and Sending ACK
+10:22:48 AM PABX answer :RQINZ     
+10:22:58 AM PABX answer :AREYUTHERE
+10:22:58 AMPMS Receiving AREYUTHERE and Sending ACK
+10:22:58 AM PABX answer :RQINZ     
+10:23:08 AM PABX answer :AREYUTHERE
+10:23:08 AMPMS Receiving AREYUTHERE and Sending ACK
+10:23:08 AM PABX answer :RQINZ     
+10:23:18 AM PABX answer :AREYUTHERE
+10:23:18 AMPMS Receiving AREYUTHERE and Sending ACK
+10:23:18 AM PABX answer :RQINZ     
+10:23:28 AM PABX answer :AREYUTHERE
+10:23:29 AMPMS Receiving AREYUTHERE and Sending ACK
+10:23:29 AM PABX answer :RQINZ     
+10:23:39 AM PABX answer :AREYUTHERE
+10:23:39 AMPMS Receiving AREYUTHERE and Sending ACK
+10:23:39 AM PABX answer :RQINZ     
+10:23:49 AM PABX answer :AREYUTHERE
+10:23:49 AMPMS Receiving AREYUTHERE and Sending ACK
+10:23:49 AM PABX answer :RQINZ     
+10:23:59 AM PABX answer :AREYUTHERE
+10:23:59 AMPMS Receiving AREYUTHERE and Sending ACK
+10:23:59 AM PABX answer :RQINZ     
+10:24:09 AM PABX answer :AREYUTHERE
+10:24:09 AMPMS Receiving AREYUTHERE and Sending ACK
+10:24:09 AM PABX answer :RQINZ     
+10:24:19 AM PABX answer :AREYUTHERE
+10:24:19 AMPMS Receiving AREYUTHERE and Sending ACK
+10:24:19 AM PABX answer :RQINZ     
+10:24:29 AM PABX answer :AREYUTHERE
+10:24:29 AMPMS Receiving AREYUTHERE and Sending ACK
+10:24:29 AM PABX answer :RQINZ     
+10:24:39 AM PABX answer :AREYUTHERE
+10:24:39 AMPMS Receiving AREYUTHERE and Sending ACK
+10:24:39 AM PABX answer :RQINZ     
+10:24:49 AM PABX answer :AREYUTHERE
+10:24:49 AMPMS Receiving AREYUTHERE and Sending ACK
+10:24:49 AM PABX answer :RQINZ     
+10:24:59 AM PABX answer :AREYUTHERE
+10:24:59 AMPMS Receiving AREYUTHERE and Sending ACK
+10:24:59 AM PABX answer :RQINZ     
+10:25:10 AM PABX answer :AREYUTHERE
+10:25:10 AMPMS Receiving AREYUTHERE and Sending ACK
+10:25:10 AM PABX answer :RQINZ     
+10:25:20 AM PABX answer :AREYUTHERE
+10:25:20 AMPMS Receiving AREYUTHERE and Sending ACK
+10:25:20 AM PABX answer :RQINZ     
+10:25:30 AM PABX answer :AREYUTHERE
+10:25:30 AMPMS Receiving AREYUTHERE and Sending ACK
+10:25:30 AM PABX answer :RQINZ     
+10:25:40 AM PABX answer :AREYUTHERE
+10:25:40 AMPMS Receiving AREYUTHERE and Sending ACK
+10:25:40 AM PABX answer :RQINZ     
+10:25:50 AM PABX answer :AREYUTHERE
+10:25:50 AMPMS Receiving AREYUTHERE and Sending ACK
+10:25:50 AM PABX answer :RQINZ     
+10:26:00 AM PABX answer :AREYUTHERE
+10:26:00 AMPMS Receiving AREYUTHERE and Sending ACK
+10:26:00 AM PABX answer :RQINZ     
+10:26:10 AM PABX answer :AREYUTHERE
+10:26:10 AMPMS Receiving AREYUTHERE and Sending ACK
+10:26:10 AM PABX answer :RQINZ     
+10:26:20 AM PABX answer :AREYUTHERE
+10:26:20 AMPMS Receiving AREYUTHERE and Sending ACK
+10:26:20 AM PABX answer :RQINZ     
+10:26:30 AM PABX answer :AREYUTHERE
+10:26:30 AMPMS Receiving AREYUTHERE and Sending ACK
+10:26:30 AM PABX answer :RQINZ     
+10:26:40 AM PABX answer :AREYUTHERE
+10:26:40 AMPMS Receiving AREYUTHERE and Sending ACK
+10:26:40 AM PABX answer :RQINZ     
+10:26:51 AM PABX answer :AREYUTHERE
+10:26:51 AMPMS Receiving AREYUTHERE and Sending ACK
+10:26:51 AM PABX answer :RQINZ     
+10:27:01 AM PABX answer :AREYUTHERE
+10:27:01 AMPMS Receiving AREYUTHERE and Sending ACK
+10:27:01 AM PABX answer :RQINZ     
+10:27:11 AM PABX answer :AREYUTHERE
+10:27:11 AMPMS Receiving AREYUTHERE and Sending ACK
+10:27:11 AM PABX answer :RQINZ     
+10:27:21 AM PABX answer :AREYUTHERE
+10:27:21 AMPMS Receiving AREYUTHERE and Sending ACK
+10:27:21 AM PABX answer :RQINZ     
+10:27:31 AM PABX answer :AREYUTHERE
+10:27:31 AMPMS Receiving AREYUTHERE and Sending ACK
+10:27:31 AM PABX answer :RQINZ     
+10:27:41 AM PABX answer :AREYUTHERE
+10:27:41 AMPMS Receiving AREYUTHERE and Sending ACK
+10:27:41 AM PABX answer :RQINZ     
+10:27:51 AM PABX answer :AREYUTHERE
+10:27:51 AMPMS Receiving AREYUTHERE and Sending ACK
+10:27:51 AM PABX answer :RQINZ     
+10:28:01 AM PABX answer :AREYUTHERE
+10:28:01 AMPMS Receiving AREYUTHERE and Sending ACK
+10:28:01 AM PABX answer :RQINZ     
+10:28:11 AM PABX answer :AREYUTHERE
+10:28:11 AMPMS Receiving AREYUTHERE and Sending ACK
+10:28:11 AM PABX answer :RQINZ     
+10:28:21 AM PABX answer :AREYUTHERE
+10:28:21 AMPMS Receiving AREYUTHERE and Sending ACK
+10:28:21 AM PABX answer :RQINZ     
+10:28:32 AM PABX answer :AREYUTHERE
+10:28:32 AMPMS Receiving AREYUTHERE and Sending ACK
+10:28:32 AM PABX answer :RQINZ     
+10:28:42 AM PABX answer :AREYUTHERE
+10:28:42 AMPMS Receiving AREYUTHERE and Sending ACK
+10:28:42 AM PABX answer :RQINZ     
+10:28:52 AM PABX answer :AREYUTHERE
+10:28:52 AMPMS Receiving AREYUTHERE and Sending ACK
+10:28:52 AM PABX answer :RQINZ     
+10:29:02 AM PABX answer :AREYUTHERE
+10:29:02 AMPMS Receiving AREYUTHERE and Sending ACK
+10:29:02 AM PABX answer :RQINZ     
+GRS       
+PMS Sent 15 RST0 8208    
+END       
+10:29:07 AM PABX answer :
+10:29:17 AM PABX answer :AREYUTHERE
+10:29:17 AMPMS Receiving AREYUTHERE and Sending ACK
+10:29:17 AM PABX answer :RQINZ     
+10:29:27 AM PABX answer :AREYUTHERE
+10:29:27 AMPMS Receiving AREYUTHERE and Sending ACK
+10:29:27 AM PABX answer :RQINZ     
+10:29:37 AM PABX answer :AREYUTHERE
+10:29:37 AMPMS Receiving AREYUTHERE and Sending ACK
+10:29:37 AM PABX answer :RQINZ     
+10:29:47 AM PABX answer :AREYUTHERE
+10:29:47 AMPMS Receiving AREYUTHERE and Sending ACK
+10:29:47 AM PABX answer :RQINZ     
+10:29:57 AM PABX answer :AREYUTHERE
+10:29:57 AMPMS Receiving AREYUTHERE and Sending ACK
+10:29:57 AM PABX answer :RQINZ     
+10:30:07 AM PABX answer :AREYUTHERE
+10:30:08 AMPMS Receiving AREYUTHERE and Sending ACK
+10:30:08 AM PABX answer :RQINZ     
+10:30:18 AM PABX answer :AREYUTHERE
+10:30:18 AMPMS Receiving AREYUTHERE and Sending ACK
+10:30:18 AM PABX answer :RQINZ     
+10:30:28 AM PABX answer :AREYUTHERE
+10:30:28 AMPMS Receiving AREYUTHERE and Sending ACK
+10:30:28 AM PABX answer :RQINZ     
+10:30:38 AM PABX answer :AREYUTHERE
+10:30:38 AMPMS Receiving AREYUTHERE and Sending ACK
+10:30:38 AM PABX answer :RQINZ     
+10:30:48 AM PABX answer :AREYUTHERE
+10:30:48 AMPMS Receiving AREYUTHERE and Sending ACK
+10:30:48 AM PABX answer :RQINZ     
+10:30:58 AM PABX answer :AREYUTHERE
+10:30:58 AMPMS Receiving AREYUTHERE and Sending ACK
+10:30:58 AM PABX answer :RQINZ     
+10:31:08 AM PABX answer :AREYUTHERE
+10:31:08 AMPMS Receiving AREYUTHERE and Sending ACK
+10:31:08 AM PABX answer :RQINZ     
+10:31:18 AM PABX answer :AREYUTHERE
+10:31:18 AMPMS Receiving AREYUTHERE and Sending ACK
+10:31:18 AM PABX answer :RQINZ     
+10:31:28 AM PABX answer :AREYUTHERE
+10:31:28 AMPMS Receiving AREYUTHERE and Sending ACK
+10:31:28 AM PABX answer :RQINZ     
+10:31:39 AM PABX answer :AREYUTHERE
+10:31:39 AMPMS Receiving AREYUTHERE and Sending ACK
+10:31:39 AM PABX answer :RQINZ     
+10:31:49 AM PABX answer :AREYUTHERE
+10:31:49 AMPMS Receiving AREYUTHERE and Sending ACK
+10:31:49 AM PABX answer :RQINZ     
+10:31:59 AM PABX answer :AREYUTHERE
+10:31:59 AMPMS Receiving AREYUTHERE and Sending ACK
+10:31:59 AM PABX answer :RQINZ     
+10:32:09 AM PABX answer :AREYUTHERE
+10:32:09 AMPMS Receiving AREYUTHERE and Sending ACK
+10:32:09 AM PABX answer :RQINZ     
+10:32:19 AM PABX answer :AREYUTHERE
+10:32:19 AMPMS Receiving AREYUTHERE and Sending ACK
+10:32:19 AM PABX answer :RQINZ     
+10:32:29 AM PABX answer :AREYUTHERE
+10:32:29 AMPMS Receiving AREYUTHERE and Sending ACK
+10:32:29 AM PABX answer :RQINZ     
+10:32:39 AM PABX answer :AREYUTHERE
+10:32:39 AMPMS Receiving AREYUTHERE and Sending ACK
+10:32:39 AM PABX answer :RQINZ     
+10:32:49 AM PABX answer :AREYUTHERE
+10:32:49 AMPMS Receiving AREYUTHERE and Sending ACK
+10:32:49 AM PABX answer :RQINZ     
+10:32:59 AM PABX answer :AREYUTHERE
+10:32:59 AMPMS Receiving AREYUTHERE and Sending ACK
+10:32:59 AM PABX answer :RQINZ     
+10:33:09 AM PABX answer :AREYUTHERE
+10:33:09 AMPMS Receiving AREYUTHERE and Sending ACK
+10:33:09 AM PABX answer :RQINZ     
+10:33:20 AM PABX answer :AREYUTHERE
+10:33:20 AMPMS Receiving AREYUTHERE and Sending ACK
+10:33:20 AM PABX answer :RQINZ     
+10:33:30 AM PABX answer :AREYUTHERE
+10:33:30 AMPMS Receiving AREYUTHERE and Sending ACK
+10:33:30 AM PABX answer :RQINZ     
+10:33:40 AM PABX answer :AREYUTHERE
+10:33:40 AMPMS Receiving AREYUTHERE and Sending ACK
+10:33:40 AM PABX answer :RQINZ     
+10:33:50 AM PABX answer :AREYUTHERE
+10:33:50 AMPMS Receiving AREYUTHERE and Sending ACK
+10:33:50 AM PABX answer :RQINZ     
+10:34:00 AM PABX answer :AREYUTHERE
+10:34:00 AMPMS Receiving AREYUTHERE and Sending ACK
+10:34:00 AM PABX answer :RQINZ     
+10:34:10 AM PABX answer :AREYUTHERE
+10:34:10 AMPMS Receiving AREYUTHERE and Sending ACK
+10:34:10 AM PABX answer :RQINZ     
+10:34:20 AM PABX answer :AREYUTHERE
+10:34:20 AMPMS Receiving AREYUTHERE and Sending ACK
+10:34:20 AM PABX answer :RQINZ     
+10:34:30 AM PABX answer :AREYUTHERE
+10:34:30 AMPMS Receiving AREYUTHERE and Sending ACK

@@ -46,6 +46,8 @@ type
     Label2: TLabel;
     Memo2: TMemo;
     Timer3: TTimer;
+    Button13: TButton;
+    procedure Button13Click(Sender: TObject);
     procedure Timer3Timer(Sender: TObject);
     procedure Memo2Change(Sender: TObject);
     procedure Memo1Change(Sender: TObject);
@@ -335,6 +337,11 @@ begin
   CI('208','TITIK EMERALD 12345678901234',dep.Date,dep.Date);
 end;
 
+procedure TForm1.Button13Click(Sender: TObject);
+begin
+  ClientSocket2.Close;
+end;
+
 procedure TForm1.Button14Click(Sender: TObject);
 var str : String;
 begin
@@ -388,21 +395,21 @@ begin
   ClientSocket1.Port := StrToInt(Edit2.Text);
   ClientSocket1.Open;
 
-  if ClientSocket1.Active then begin
+
     Button3.Enabled := False;
     Button4.Enabled := True;
-  end;
+
 
 end;
 
 procedure TForm1.Button4Click(Sender: TObject);
 begin
   ClientSocket1.Close;
-  if not ClientSocket1.Active then begin
+
     Button3.Enabled := True;
     Button4.Enabled := False;
 
-  end;
+
 end;
 
 procedure TForm1.Button5Click(Sender: TObject);
@@ -560,11 +567,18 @@ begin
   end;
 
   if copy(oritext,1,6) = STX+'RQINZ' then begin
-//    Sinkro;
+    ClientSocket2.Socket.SendText(ACK);
+    Sinkro;
 //    ClientSocket2.Close;
   end;
 
   if copy(oritext,1,4) = STX+'STS' then begin
+    sts := copy(oritext,5,1);
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add('Status '+ copy(oritext,5,1) + ' '+sts);
+  end;
+
+  if copy(oritext,1,4) = STX+'WAK' then begin
     sts := copy(oritext,5,1);
     ClientSocket2.Socket.SendText(ACK);
     Memo1.Lines.Add('Status '+ copy(oritext,5,1) + ' '+sts);
@@ -727,7 +741,7 @@ begin
   str := STX+'GRS'+StringOfChar(SPC,7)+ETX;
   ClientSocket2.Socket.SendText(str);
   Memo1.Lines.Add(str);
-  Sleep(100);
+  Sleep(500);
 
   while not kamar.Eof do begin
 
@@ -738,14 +752,14 @@ begin
     else
       stat := '1';
 
-    if roomno = '208' then
-      stat := '0';
-    
+//    if roomno = '208' then
+//      stat := '0';
+
 
     str := STX+'CHK'+stat+SPC+Trim('8'+roomno)+StringOfChar(SPC,4)+ETX;
     ClientSocket2.Socket.SendText(str);
     Memo1.Lines.Add(str);
-    Sleep(100);
+    Sleep(500);
 
     kamar.Next;
 
