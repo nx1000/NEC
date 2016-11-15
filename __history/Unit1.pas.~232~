@@ -46,6 +46,8 @@ type
     Label2: TLabel;
     Memo2: TMemo;
     Timer3: TTimer;
+    Button13: TButton;
+    procedure Button13Click(Sender: TObject);
     procedure Timer3Timer(Sender: TObject);
     procedure Memo2Change(Sender: TObject);
     procedure Memo1Change(Sender: TObject);
@@ -335,6 +337,11 @@ begin
   CI('208','TITIK EMERALD 12345678901234',dep.Date,dep.Date);
 end;
 
+procedure TForm1.Button13Click(Sender: TObject);
+begin
+  ClientSocket2.Close;
+end;
+
 procedure TForm1.Button14Click(Sender: TObject);
 var str : String;
 begin
@@ -560,14 +567,31 @@ begin
   end;
 
   if copy(oritext,1,6) = STX+'RQINZ' then begin
-//    Sinkro;
+    ClientSocket2.Socket.SendText(ACK);
+    Sinkro;
 //    ClientSocket2.Close;
   end;
 
   if copy(oritext,1,4) = STX+'STS' then begin
     sts := copy(oritext,5,1);
     ClientSocket2.Socket.SendText(ACK);
-    Memo1.Lines.Add('Status '+ copy(oritext,5,1) + ' '+sts);
+    Memo1.Lines.Add(TimeToStr(Now)+' STS Status '+ copy(oritext,5,1) + ' '+sts);
+  end;
+
+  if copy(oritext,1,4) = STX+'WAK' then begin
+    sts := copy(oritext,5,1);
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add(TimeToStr(Now)+ ' WAK Status '+ copy(oritext,5,1) + ' '+sts);
+  end;
+
+  if copy(oritext,1,4) = STX+'GRS' then begin
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add(TimeToStr(Now)+' GRS -> ACK');
+  end;
+
+  if copy(oritext,1,4) = STX+'GRS' then begin
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add(TimeToStr(Now)+' GRS -> ACK');
   end;
 
 

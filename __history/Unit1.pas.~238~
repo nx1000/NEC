@@ -46,6 +46,8 @@ type
     Label2: TLabel;
     Memo2: TMemo;
     Timer3: TTimer;
+    Button13: TButton;
+    procedure Button13Click(Sender: TObject);
     procedure Timer3Timer(Sender: TObject);
     procedure Memo2Change(Sender: TObject);
     procedure Memo1Change(Sender: TObject);
@@ -98,7 +100,7 @@ type
     procedure BUKA(roomno: String);
     procedure TUTUP(roomno: String);
     procedure CHG(roomno,nama: String);
-
+    procedure updateRoom(sts,roomno: String);
   end;
 
 var
@@ -335,6 +337,11 @@ begin
   CI('208','TITIK EMERALD 12345678901234',dep.Date,dep.Date);
 end;
 
+procedure TForm1.Button13Click(Sender: TObject);
+begin
+  ClientSocket2.Close;
+end;
+
 procedure TForm1.Button14Click(Sender: TObject);
 var str : String;
 begin
@@ -531,6 +538,7 @@ procedure TForm1.ClientSocket2Read(Sender: TObject; Socket: TCustomWinSocket);
 var oritext,bodytext : String;
     str : String;
     sts : String;
+    roomno : String;
 begin
 
   oritext := Socket.ReceiveText;
@@ -560,21 +568,39 @@ begin
   end;
 
   if copy(oritext,1,6) = STX+'RQINZ' then begin
-//    Sinkro;
+    ClientSocket2.Socket.SendText(ACK);
+    Sinkro;
 //    ClientSocket2.Close;
   end;
 
   if copy(oritext,1,4) = STX+'STS' then begin
     sts := copy(oritext,5,1);
+    roomno := Copy(oritext,7,4);
     ClientSocket2.Socket.SendText(ACK);
-    Memo1.Lines.Add('Status '+ copy(oritext,5,1) + ' '+sts);
+    updateRoom(sts,roomno);
+    Memo1.Lines.Add(TimeToStr(Now)+' STS Status '+ copy(oritext,5,1) + ' '+sts);
   end;
 
+  if copy(oritext,1,4) = STX+'WAK' then begin
+    sts := copy(oritext,5,1);
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add(TimeToStr(Now)+ ' WAK Status '+ copy(oritext,5,1) + ' '+sts);
+  end;
 
+  if copy(oritext,1,4) = STX+'GRS' then begin
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add(TimeToStr(Now)+' GRS -> ACK');
+  end;
 
+  if copy(oritext,1,4) = STX+'END' then begin
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add(TimeToStr(Now)+' GRS -> ACK');
+  end;
 
-
-
+  if copy(oritext,1,4) = STX+'CHK' then begin
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add(TimeToStr(Now)+' CHK -> ACK');
+  end;
 
 end;
 
@@ -727,7 +753,7 @@ begin
   str := STX+'GRS'+StringOfChar(SPC,7)+ETX;
   ClientSocket2.Socket.SendText(str);
   Memo1.Lines.Add(str);
-  Sleep(50);
+  Sleep(500);
 
   while not kamar.Eof do begin
 
@@ -1040,6 +1066,22 @@ begin
   Memo1.Lines.Add('PMS Sent '+ IntToStr(Length(str))+' '+str);
   ClientSocket2.Socket.SendText(str);
   Sleep(200);
+end;
+
+procedure TForm1.updateRoom(sts,roomno: String);
+var cmd : String;
+begin
+  //
+  cmd := 'insert into tms2fo (code,room,date,time,type,flag) ' +
+         ' values (' + QuotedStr('R')+
+         ','+QuotedStr(roomno)+
+         ','+RelaxDate(Now)+
+         ','+FormatDateTime('hh:nn',Now)+
+         ','+QuotedStr(sts)+
+         ','+QuotedStr('1')+
+         ')';
+
+   ZConnection2.ExecuteDirect(cmd);
 end;
 
 

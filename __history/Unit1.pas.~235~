@@ -538,6 +538,7 @@ procedure TForm1.ClientSocket2Read(Sender: TObject; Socket: TCustomWinSocket);
 var oritext,bodytext : String;
     str : String;
     sts : String;
+    roomno : String;
 begin
 
   oritext := Socket.ReceiveText;
@@ -574,15 +575,34 @@ begin
 
   if copy(oritext,1,4) = STX+'STS' then begin
     sts := copy(oritext,5,1);
+    roomno := Copy(oritext,7,4);
+
+    updateRoom(sts,roomno);
+
     ClientSocket2.Socket.SendText(ACK);
-    Memo1.Lines.Add('Status '+ copy(oritext,5,1) + ' '+sts);
+    Memo1.Lines.Add(TimeToStr(Now)+' STS Status '+ copy(oritext,5,1) + ' '+sts);
   end;
 
+  if copy(oritext,1,4) = STX+'WAK' then begin
+    sts := copy(oritext,5,1);
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add(TimeToStr(Now)+ ' WAK Status '+ copy(oritext,5,1) + ' '+sts);
+  end;
 
+  if copy(oritext,1,4) = STX+'GRS' then begin
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add(TimeToStr(Now)+' GRS -> ACK');
+  end;
 
+  if copy(oritext,1,4) = STX+'END' then begin
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add(TimeToStr(Now)+' GRS -> ACK');
+  end;
 
-
-
+  if copy(oritext,1,4) = STX+'CHK' then begin
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add(TimeToStr(Now)+' CHK -> ACK');
+  end;
 
 end;
 

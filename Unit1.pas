@@ -100,7 +100,7 @@ type
     procedure BUKA(roomno: String);
     procedure TUTUP(roomno: String);
     procedure CHG(roomno,nama: String);
-
+    procedure updateRoom(sts,roomno: String);
   end;
 
 var
@@ -538,6 +538,7 @@ procedure TForm1.ClientSocket2Read(Sender: TObject; Socket: TCustomWinSocket);
 var oritext,bodytext : String;
     str : String;
     sts : String;
+    roomno : String;
 begin
 
   oritext := Socket.ReceiveText;
@@ -574,21 +575,32 @@ begin
 
   if copy(oritext,1,4) = STX+'STS' then begin
     sts := copy(oritext,5,1);
+    roomno := Copy(oritext,7,4);
     ClientSocket2.Socket.SendText(ACK);
-    Memo1.Lines.Add('Status '+ copy(oritext,5,1) + ' '+sts);
+    updateRoom(sts,roomno);
+    Memo1.Lines.Add(TimeToStr(Now)+' STS Status '+ copy(oritext,5,1) + ' '+sts);
   end;
 
   if copy(oritext,1,4) = STX+'WAK' then begin
     sts := copy(oritext,5,1);
     ClientSocket2.Socket.SendText(ACK);
-    Memo1.Lines.Add('Status '+ copy(oritext,5,1) + ' '+sts);
+    Memo1.Lines.Add(TimeToStr(Now)+ ' WAK Status '+ copy(oritext,5,1) + ' '+sts);
   end;
 
+  if copy(oritext,1,4) = STX+'GRS' then begin
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add(TimeToStr(Now)+' GRS -> ACK');
+  end;
 
+  if copy(oritext,1,4) = STX+'END' then begin
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add(TimeToStr(Now)+' GRS -> ACK');
+  end;
 
-
-
-
+  if copy(oritext,1,4) = STX+'CHK' then begin
+    ClientSocket2.Socket.SendText(ACK);
+    Memo1.Lines.Add(TimeToStr(Now)+' CHK -> ACK');
+  end;
 
 end;
 
@@ -1054,6 +1066,24 @@ begin
   Memo1.Lines.Add('PMS Sent '+ IntToStr(Length(str))+' '+str);
   ClientSocket2.Socket.SendText(str);
   Sleep(200);
+end;
+
+procedure TForm1.updateRoom(sts,roomno: String);
+var cmd : String;
+    roomno2 : String;
+begin
+  //
+  roomno2 := Copy(roomno,2,3);
+  cmd := 'insert into tms2fo (code,room,date,time,type,flag) ' +
+         ' values (' + QuotedStr('R')+
+         ','+QuotedStr(roomno2)+
+         ','+QuotedStr(FormatDateTime('yyyy-mm-dd',Now))+
+         ','+QuotedStr(FormatDateTime('hh:nn',Now))+
+         ','+QuotedStr(sts)+
+         ','+QuotedStr('1')+
+         ')';
+
+   ZConnection2.ExecuteDirect(cmd);
 end;
 
 
