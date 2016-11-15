@@ -165,7 +165,6 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 9
-    Visible = False
     OnClick = Button6Click
   end
   object Button7: TButton
@@ -181,7 +180,6 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 10
-    Visible = False
     OnClick = Button7Click
   end
   object Edit3: TEdit
@@ -191,7 +189,6 @@ object Form1: TForm1
     Height = 21
     TabOrder = 11
     Text = '8208'
-    Visible = False
     OnChange = Edit3Change
   end
   object Button8: TButton
@@ -234,7 +231,6 @@ object Form1: TForm1
     Height = 25
     Caption = 'RST'
     TabOrder = 15
-    Visible = False
     OnClick = Button15Click
   end
   object Edit4: TEdit
@@ -244,7 +240,6 @@ object Form1: TForm1
     Height = 21
     TabOrder = 16
     Text = '0'
-    Visible = False
   end
   object Button10: TButton
     Left = 326
@@ -253,7 +248,6 @@ object Form1: TForm1
     Height = 25
     Caption = 'STS'
     TabOrder = 17
-    Visible = False
     OnClick = Button10Click
   end
   object Edit5: TEdit
@@ -263,7 +257,6 @@ object Form1: TForm1
     Height = 21
     TabOrder = 18
     Text = '0'
-    Visible = False
   end
   object Button11: TButton
     Left = 24
@@ -291,7 +284,6 @@ object Form1: TForm1
     Height = 25
     Caption = 'Test CI'
     TabOrder = 21
-    Visible = False
     OnClick = Button12Click
   end
   object Memo2: TMemo

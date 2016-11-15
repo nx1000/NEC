@@ -801,7 +801,7 @@ begin
     if runningfo=False then Exit;
 
     if rsv.Active then rsv.Close;
-    rsv.SQL.Text := 'select depdt from fofrsv where rsvst in (''R'',''O'') and roomno='+QuotedStr(fo['room'])+' limit 1';
+    rsv.SQL.Text := 'select depdt from fofrsv where rsvst=''R'' and roomno='+QuotedStr(fo['room'])+' limit 1';
     rsv.Open;
     if rsv.RecordCount<1 then begin
       fo.Next;
@@ -840,8 +840,8 @@ begin
 
     if (fo['type'] = 'O') and (fo['cos'] = '3') then begin
       MULAI;
-      TUTUP(fo['room']);
       CO(fo['room']);
+      TUTUP(fo['room']);
       SELESAI;
       ZConnection2.ExecuteDirect('update room set flag=0 where id='+IntToStr(fo['id']));
       Application.ProcessMessages;
@@ -852,8 +852,8 @@ begin
 
     if (fo['type'] = 'O') and (fo['cos'] = '0') then begin
       MULAI;
-      TUTUP(fo['room']);
       CO(fo['room']);
+      TUTUP(fo['room']);
       SELESAI;
       ZConnection2.ExecuteDirect('update room set flag=0 where id='+IntToStr(fo['id']));
       Application.ProcessMessages;

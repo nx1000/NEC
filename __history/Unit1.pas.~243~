@@ -801,7 +801,7 @@ begin
     if runningfo=False then Exit;
 
     if rsv.Active then rsv.Close;
-    rsv.SQL.Text := 'select depdt from fofrsv where rsvst in (''R'',''O'') and roomno='+QuotedStr(fo['room'])+' limit 1';
+    rsv.SQL.Text := 'select depdt from fofrsv where rsvst=''R'' and roomno='+QuotedStr(fo['room'])+' limit 1';
     rsv.Open;
     if rsv.RecordCount<1 then begin
       fo.Next;
